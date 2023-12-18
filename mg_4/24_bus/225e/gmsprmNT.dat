@@ -1,0 +1,16 @@
+Input="C:\Users\morteza\Desktop\payan name_ARshad\mg_4\24_bus\Cont_backup_gen.gms"
+Output="C:\Users\morteza\Desktop\payan name_ARshad\mg_4\24_bus\Cont_backup_gen.lst"
+Action=R
+SubSys=C:\GAMS\win64\24.0\gmscmpnt.txt
+ScrDir="C:\Users\morteza\Desktop\payan name_ARshad\mg_4\24_bus\225e\"
+SysDir=C:\GAMS\win64\24.0\
+CurDir="C:\Users\morteza\Desktop\payan name_ARshad\mg_4\24_bus\"
+WorkDir="C:\Users\morteza\Desktop\payan name_ARshad\mg_4\24_bus\"
+PutDir="C:\Users\morteza\Desktop\payan name_ARshad\mg_4\24_bus\"
+GridDir="C:\Users\morteza\Desktop\payan name_ARshad\mg_4\24_bus\225e\"
+ScriptNext=225e\gamsnext.cmd
+ScriptFrst="@echo off"
+LogOption=0
+AppendOut=1
+LibIncDir=C:\GAMS\win64\24.0\inclib\
+SysIncDir=C:\GAMS\win64\24.0\

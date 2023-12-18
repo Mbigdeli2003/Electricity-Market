@@ -1,0 +1,476 @@
+=1
+=0IBM ILOG CPLEX   Feb 14, 2013 24.0.2 WEX 38380.38394 WEI x86_64/MS Windows    
+=1
+
+IBM ILOG CPLEX   Feb 14, 2013 24.0.2 WEX 38380.38394 WEI x86_64/MS Windows    
+=2
+=1
+--- GAMS/Cplex licensed for continuous and discrete problems.
+=2
+=1
+Cplex 12.5.0.0
+
+=2
+ 
+ 
+--------------------------------------------------------------
+CONTROL FILE STATISTICS
+--------------------------------------------------------------
+Rows : 58262, columns : 22487, nonzeroes : 91577
+Free Rows          : 0
+Iteration limit    : 2000000000
+Resource  limit    : 1.000000e+003
+Objective variable : 0
+Objective sense    : minimize
+Advanced basis     : no
+Binary variables   : 2280
+Integer variables  : 0
+SOS1 variables     : 0
+SOS2 variables     : 0
+SemiCont variables : 0
+SemiInt variables  : 0
+OPTCA : 0.000000e+000 , OPTCR : 1.000000e-001
+Priorities         : no
+Cheat              : n.a.
+Cutoff             : n.a.
+Node limit         : 0
+ 
+ 
+
+
+Option Values:
+----------------------------------------------------
+usebasis              0
+cutoff                0
+tryint                0
+domlim                0
+advind                0
+aggcutlim             3
+aggfill               10
+aggind                -1
+auxrootthreads        0
+baralg                0
+barcolnz              0
+barcrossalg           0
+bardisplay            1
+barepcomp             1e-008
+bargrowth             1e+012
+baritlim              2100000000
+barmaxcor             -1
+barobjrng             1e+020
+barorder              0
+barqcpepcomp          1e-007
+barstartalg           1
+bbinterval            7
+bndstrenind           -1
+brdir                 0
+bttol                 0.9999
+cliques               0
+clocktype             0
+clonelog              0
+coeredind             -1
+covers                0
+craind                1
+crossoveralg          default
+cutlo                 -1e+075
+cutpass               0
+cuts                  0
+cutsfactor            4
+cutup                 1e+075
+depind                -1
+dettilim              1e+075
+disjcuts              0
+divetype              0
+divfltup              1e+299
+divfltlo              -1e+299
+.divflt               0
+dpriind               0
+dtprefix              bnd
+dtterm                1
+dumpcuts              0
+dumptree              0
+dumplp                0
+eachcutlim            2100000000
+epagap                0
+epgap                 0.1
+epint                 1e-005
+epmrk                 0.01
+epopt                 1e-006
+epper                 1e-006
+eprelax               1e-006
+eprhs                 1e-006
+feasopt               0
+feasoptmode           0
+.feaspref             1
+fixoptfile            
+flowcovers            0
+flowpaths             0
+flushfiles            0
+fpheur                0
+fraccand              200
+fraccuts              0
+fracpass              0
+gubcovers             0
+heurfreq              0
+iafile                
+iatriggerfile         
+iatriggertime         60
+iis                   0
+implbd                0
+interactive           0
+intsollim             2100000000
+itlim                 2000000000
+lbheur                0
+lpalg                 default
+lpmethod              0
+ltol                  0
+mcfcuts               0
+memoryemphasis        0
+mipdisplay            4
+mipemphasis           0
+mipkappastats         -1
+mipinterval           0
+mipordind             1
+mipordtype            0
+mipsearch             0
+mipstart              0
+miptrace              
+miptracenode          100
+miptracetime          1
+miqcpstrat            0
+mircuts               0
+mpslongnum            1
+mtol                  0
+names                 1
+netdisplay            2
+netepopt              1e-006
+neteprhs              1e-006
+netfind               2
+netitlim              2100000000
+netppriind            0
+nodefileind           1
+nodelim               2100000000
+nodesel               1
+numericalemphasis     0
+objdif                0
+objllim               -1e+075
+objrng               
+objulim               1e+075
+parallelmode          1
+perind                0
+perlim                0
+polishtime            0
+polishafterepagap     0
+polishafterepgap      0
+polishafternode       2100000000
+polishafterintsol     2100000000
+polishaftertime       1e+075
+polishafterdettime    1e+075
+populatelim           20
+ppriind               0
+predual               0
+preind                1
+prelinear             1
+prepass               -1
+preslvnd              0
+pricelim              0
+printoptions          0
+probe                 0
+probetime             1e+075
+probedettime          1e+075
+probread              
+qpmakepsdind          1
+qpmethod              0
+quality               0
+randomseed            0
+readflt               
+readparams            
+reduce                3
+reinv                 0
+relaxfixedinfeas      0
+relaxpreind           -1
+relobjdif             0
+repairtries           0
+repeatpresolve        -1
+rerun                 yes
+rhsrng               
+rinsheur              0
+rngrestart            
+scaind                0
+secret               
+siftalg               0
+siftdisplay           1
+siftitlim             2100000000
+simdisplay            1
+singlim               10
+solnpool              
+solnpoolagap          1e+075
+solnpoolcapacity      2100000000
+solnpoolgap           1e+075
+solnpoolintensity     0
+solnpoolpop           1
+solnpoolpopdel        
+solnpoolpoprepeat     
+solnpoolprefix        soln
+solnpoolreplace       0
+solutiontarget        0
+solvefinal            1
+startalg              0
+strongcandlim         10
+strongitlim           0
+subalg                0
+submipnodelim         500
+symmetry              -1
+threads               1
+tilim                 1000
+trelim                1e+075
+tuning                
+tuningdisplay         1
+tuningmeasure         1
+tuningrepeat          1
+tuningtilim           200
+tuningdettilim        1e+007
+usercutcall           
+usercutfirst          10
+usercutfreq           10
+usercutinterval       100
+usercutmult           2
+usercutnewint         1
+usergdxin             bchin.gdx
+usergdxsol            bchsol.gdx
+usergdxname           bchout.gdx
+usergdxnameinc        bchout_i.gdx
+usergdxprefix         
+userheurcall          
+userheurfirst         10
+userheurfreq          10
+userheurinterval      100
+userheurmult          2
+userheurnewint        1
+userheurobjfirst      0
+userincbcall          
+userincbicall         
+userjobid             
+userkeep              0
+usercgmaxcols         2147483647
+usercgadvind          1
+usercgsolopt          0
+usercgdumplp          bchcgdump.lp
+userpricingcall       
+usersolvenodelp       
+varsel                0
+waitforenter          0
+workdir               C:\Users\morteza\Desktop\payan name_ARshad\mg_4\24_bus\225c\
+workmem               128
+writebas              
+writeflt              
+writelp               
+writemps              
+writemst              
+writeord              
+writeparam            
+writepre              
+writesav              
+zerohalfcuts          0
+----------------------------------------------------
+
+Tried aggregator 2 times.
+MIP Presolve eliminated 51352 rows and 15984 columns.
+MIP Presolve modified 820 coefficients.
+Aggregator did 268 substitutions.
+Reduced MIP has 6642 rows, 6235 columns, and 23779 nonzeros.
+Reduced MIP has 964 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.09 sec. (39.02 ticks)
+Found incumbent of value 5.8037542e+024 after 0.23 sec. (91.60 ticks)
+Probing fixed 14 vars, tightened 339 bounds.
+Probing time = 0.06 sec. (8.40 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 53 rows and 31 columns.
+MIP Presolve modified 44 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 6587 rows, 6203 columns, and 23538 nonzeros.
+Reduced MIP has 938 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (26.17 ticks)
+Probing time = 0.02 sec. (1.61 ticks)
+Clique table members: 2321.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Tried aggregator 1 time.
+Aggregator did 2 substitutions.
+Reduced LP has 6585 rows, 6201 columns, and 23542 nonzeros.
+Presolve time = 0.02 sec. (4.22 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          7915.000000
+Iteration:   333   Dual objective     =     111440166.052516
+Iteration:   565   Dual objective     =     118852014.683350
+Iteration:   829   Dual objective     =     120710429.621059
+Perturbation started.
+Iteration:  1011   Dual objective     =        438841.160000
+Iteration:  1255   Dual objective     =        439297.070006
+Iteration:  1483   Dual objective     =        439444.190013
+Iteration:  1653   Dual objective     =        439828.829156
+Iteration:  1814   Dual objective     =        442573.748279
+Iteration:  1964   Dual objective     =        448912.620806
+Iteration:  2121   Dual objective     = 22132804333198077000000.000000
+Iteration:  2292   Dual objective     = 22132804333198077000000.000000
+Iteration:  2500   Dual objective     = 36827410113771789000000.000000
+Iteration:  2732   Dual objective     = 37613115841264006000000.000000
+Iteration:  2933   Dual objective     = 44878654747822902000000.000000
+Markowitz threshold set to 0.1
+Iteration:  2966   Scaled dual infeas =     983691944.115645
+Iteration:  3000   Dual objective     = 44878654747773745000000.000000
+Iteration:  3220   Dual objective     = 44890225251248111000000.000000
+Iteration:  3327   Dual objective     = 45263273081127897000000.000000
+Iteration:  3329   Scaled dual infeas =    1395477310.289948
+Iteration:  3442   Scaled dual infeas =     601541366.249117
+Iteration:  3484   Scaled dual infeas =       4580076.552242
+Iteration:  3501   Dual objective     = 45263273081127695000000.000000
+Iteration:  3768   Dual objective     = 45263273081127729000000.000000
+Iteration:  3771   Scaled dual infeas =    1893953863.200884
+Iteration:  3873   Scaled dual infeas =         65176.197381
+Iteration:  3889   Dual objective     = 45263273081127410000000.000000
+Removing perturbation.
+Iteration:  4130   Scaled dual infeas =     140906650.343726
+Iteration:  4293   Scaled dual infeas =           806.429055
+Iteration:  4299   Scaled dual infeas =             0.000000
+Iteration:  4300   Dual objective     = 45263273081127293000000.000000
+Reperturbation started.
+Iteration:  4401   Dual objective     = 45263273081127343000000.000000
+Iteration:  4635   Dual objective     = 45263273081127343000000.000000
+Iteration:  4655   Scaled dual infeas =     101045897.271048
+Iteration:  4712   Scaled dual infeas =      32368965.075838
+Iteration:  4780   Scaled dual infeas =         71850.726032
+Iteration:  4814   Scaled dual infeas =      97561134.124911
+Iteration:  4856   Dual objective     = 45263273081127209000000.000000
+Iteration:  5098   Dual objective     = 45263273081127234000000.000000
+Iteration:  5332   Dual objective     = 45263273081127234000000.000000
+Iteration:  5390   Dual objective     = 45263273081127234000000.000000
+Iteration:  5438   Dual objective     = 45263273081127242000000.000000
+Removing perturbation.
+Iteration:  5440    Objective     = 45263273081128064000000.000000
+Iteration:  5447    Objective     = 45263273081128064000000.000000
+Iteration:  5537   Scaled dual infeas =        117137.144562
+Iteration:  5648   Dual objective     = 45263273081127259000000.000000
+Reperturbation started.
+Iteration:  5849   Scaled dual infeas =     272633072.938423
+Iteration:  5858   Dual objective     = 45263273081127393000000.000000
+Iteration:  6109   Dual objective     = 45263273081127460000000.000000
+Removing perturbation.
+Iteration:  6122   Scaled dual infeas =      21904517.236905
+Iteration:  6158   Dual objective     = 45263273081127762000000.000000
+Iteration:  6290   Scaled dual infeas =     273257730.882630
+Iteration:  6311   Dual objective     = 45263273081126705000000.000000
+Iteration:  6388   Scaled dual infeas =      33561250.333333
+Iteration:  6414   Dual objective     = 45263273081127091000000.000000
+Iteration:  6479   Scaled dual infeas =     134297931.259736
+Iteration:  6498   Scaled dual infeas =     757234626.813595
+Iteration:  6516   Scaled dual infeas =     224355253.420975
+Iteration:  6545   Dual objective     = 45263273081126773000000.000000
+Iteration:  6702   Dual objective     = 45263273081126840000000.000000
+Iteration:  6734   Dual objective     = 45263273081126840000000.000000
+Iteration:  6804   Scaled dual infeas =    5841250854.794794
+Iteration:  6973   Dual objective     = 45263273081126924000000.000000
+Iteration:  6977   Dual objective     = 45263273081126924000000.000000
+Iteration:  7170   Dual objective     = 45263273081127125000000.000000
+Iteration:  7202   Dual objective     = 45263273081127125000000.000000
+Iteration:  7207   Dual objective     = 45263273081127125000000.000000
+Iteration:  7262   Dual objective     = 45263273081127125000000.000000
+Iteration:  7289   Dual objective     = 45263273081127125000000.000000
+Iteration:  7319   Dual objective     = 45263273081127125000000.000000
+Iteration:  7320   Dual objective     = 45263273081126588000000.000000
+Iteration:  7321   Dual objective     = 45263273081126588000000.000000
+Iteration:  7324   Dual objective     = 45263273081127393000000.000000
+Iteration:  7335   Dual objective     = 45263273081127393000000.000000
+Iteration:  7339   Dual objective     = 45263273081127544000000.000000
+Removing shift (89).
+Iteration:  7353   Scaled dual infeas =       1467618.634241
+Iteration:  7414   Scaled dual infeas =            80.000000
+Iteration:  7416   Scaled dual infeas =             0.000000
+Iteration:  7417   Scaled dual infeas =             0.000000
+Iteration:  7418   Scaled dual infeas =             0.000000
+Iteration:  7419   Scaled dual infeas =             0.000000
+Iteration:  7420   Scaled dual infeas =             0.000000
+Iteration:  7421   Scaled dual infeas =             0.000000
+Iteration:  7422   Scaled dual infeas =             0.000000
+Iteration:  7423   Scaled dual infeas =             0.000000
+Iteration:  7424   Scaled dual infeas =             0.000000
+Iteration:  7425   Scaled dual infeas =             0.000000
+Iteration:  7426   Scaled dual infeas =             0.000000
+Iteration:  7427   Scaled dual infeas =             0.000000
+Iteration:  7428   Scaled dual infeas =             0.000000
+Iteration:  7429   Dual objective     = 45263273081127393000000.000000
+Iteration:  7590   Dual infeasibility =        920098.564934
+Iteration:  7603   Dual infeasibility =      16777309.630194
+Iteration:  7606   Dual infeasibility =           205.851074
+Iteration:  7611   Dual infeasibility =             0.000000
+Iteration:  7612   Dual objective     = 45263273081127142000000.000000
+Iteration:  7649   Dual infeasibility =       8677888.360128
+Initializing dual steep norms . . .
+Iteration:  7799   Scaled dual infeas =        919853.347401
+Iteration:  7812   Scaled dual infeas =             0.000000
+Iteration:  7813   Dual objective     = 45263273081126672000000.000000
+Iteration:  7980   Scaled dual infeas =        262232.095687
+Iteration:  7992   Dual objective     = 45263273081126773000000.000000
+Perturbation started.
+Iteration:  8093   Scaled dual infeas =           642.973809
+Iteration:  8098   Dual objective     = 45263273081126689000000.000000
+Removing perturbation.
+Iteration:  8196   Scaled dual infeas =        230348.437186
+Iteration:  8204   Scaled dual infeas =             0.000000
+Iteration:  8205   Dual objective     = 45263273081126714000000.000000
+Reperturbation started.
+Iteration:  8306   Scaled dual infeas =        930754.881058
+Iteration:  8323   Dual objective     = 45263273081126773000000.000000
+Iteration:  8492   Dual objective     = 45263273081126773000000.000000
+Removing perturbation.
+Iteration:  8578   Scaled dual infeas =          7830.639848
+Iteration:  8588   Dual objective     = 45263273081126672000000.000000
+Iteration:  8623   Scaled dual infeas =        917601.312792
+Iteration:  8627   Scaled dual infeas =         65607.099869
+Iteration:  8631   Dual objective     = 45263273081126672000000.000000
+Iteration:  8632   Scaled dual infeas =        917601.312792
+Iteration:  8636   Scaled dual infeas =         65607.099869
+Iteration:  8640   Dual objective     = 45263273081126672000000.000000
+Iteration:  8641   Scaled dual infeas =        917601.312792
+Iteration:  8645   Scaled dual infeas =         65607.099869
+Iteration:  8649   Dual objective     = 45263273081126672000000.000000
+Iteration:  8650   Scaled dual infeas =        917601.312792
+Iteration:  8654   Dual objective     = 45263273081126672000000.000000
+Iteration:  8656   Scaled dual infeas =         32768.000000
+Iteration:  8658   Dual objective     = 45263273081126773000000.000000
+Removing shift (7).
+Iteration:  8659   Scaled dual infeas =           700.015570
+Iteration:  8666   Dual objective     = 45263273081126672000000.000000
+Iteration:  8696   Scaled dual infeas =     268435456.000000
+Iteration:  8698   Dual objective     = 45263273081127091000000.000000
+Iteration:  8728   Scaled dual infeas =     344850529.312792
+Iteration:  8733   Scaled dual infeas =         65607.099869
+Iteration:  8737   Dual objective     = 45263273081126907000000.000000
+Iteration:  8740   Scaled dual infeas =        917601.312792
+Iteration:  8744   Scaled dual infeas =         65607.099869
+Iteration:  8748   Dual objective     = 45263273081126672000000.000000
+Iteration:  8749   Scaled dual infeas =        917601.312792
+Iteration:  8753   Scaled dual infeas =         65607.099869
+Iteration:  8757   Dual objective     = 45263273081126672000000.000000
+Iteration:  8758   Scaled dual infeas =        917601.312792
+Iteration:  8762   Scaled dual infeas =         65607.099869
+Iteration:  8766   Dual objective     = 45263273081126672000000.000000
+Iteration:  8767   Scaled dual infeas =        917601.312792
+Iteration:  8771   Dual objective     = 45263273081126672000000.000000
+Iteration:  8773   Dual objective     = 45263273081126756000000.000000
+Iteration:  8775   Dual objective     = 45263273081126756000000.000000
+Removing shift (1).
+Root relaxation solution time = 2.09 sec. (744.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      5.80375e+024     7915.0000     8778  100.00%
+Found incumbent of value 5.8037542e+024 after 2.53 sec. (879.88 ticks)
+      0     0  4.52633e+022    50  5.80375e+024  4.52633e+022     8778   99.22%
+      0     0  4.52648e+022    58  5.80375e+024      Cuts: 88    24336   99.22%
+      0     0  4.52656e+022    72  5.80375e+024      Cuts: 66    49842   99.22%
+      0     0  4.52656e+022    52  5.80375e+024       Cuts: 6    92660   99.22%

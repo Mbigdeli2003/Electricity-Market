@@ -1,0 +1,2089 @@
+=1
+=0IBM ILOG CPLEX   Feb 14, 2013 24.0.2 WEX 38380.38394 WEI x86_64/MS Windows    
+=1
+
+IBM ILOG CPLEX   Feb 14, 2013 24.0.2 WEX 38380.38394 WEI x86_64/MS Windows    
+=2
+=1
+--- GAMS/Cplex licensed for continuous and discrete problems.
+=2
+=1
+Cplex 12.5.0.0
+
+=2
+ 
+ 
+--------------------------------------------------------------
+CONTROL FILE STATISTICS
+--------------------------------------------------------------
+Rows : 72662, columns : 51287, nonzeroes : 120815
+Free Rows          : 0
+Iteration limit    : 2000000000
+Resource  limit    : 1.000000e+003
+Objective variable : 0
+Objective sense    : minimize
+Advanced basis     : no
+Binary variables   : 2280
+Integer variables  : 0
+SOS1 variables     : 0
+SOS2 variables     : 0
+SemiCont variables : 0
+SemiInt variables  : 0
+OPTCA : 0.000000e+000 , OPTCR : 1.000000e-001
+Priorities         : no
+Cheat              : n.a.
+Cutoff             : n.a.
+Node limit         : 0
+ 
+ 
+
+
+Option Values:
+----------------------------------------------------
+usebasis              0
+cutoff                0
+tryint                0
+domlim                0
+advind                0
+aggcutlim             3
+aggfill               10
+aggind                -1
+auxrootthreads        0
+baralg                0
+barcolnz              0
+barcrossalg           0
+bardisplay            1
+barepcomp             1e-008
+bargrowth             1e+012
+baritlim              2100000000
+barmaxcor             -1
+barobjrng             1e+020
+barorder              0
+barqcpepcomp          1e-007
+barstartalg           1
+bbinterval            7
+bndstrenind           -1
+brdir                 0
+bttol                 0.9999
+cliques               0
+clocktype             0
+clonelog              0
+coeredind             -1
+covers                0
+craind                1
+crossoveralg          default
+cutlo                 -1e+075
+cutpass               0
+cuts                  0
+cutsfactor            4
+cutup                 1e+075
+depind                -1
+dettilim              1e+075
+disjcuts              0
+divetype              0
+divfltup              1e+299
+divfltlo              -1e+299
+.divflt               0
+dpriind               0
+dtprefix              bnd
+dtterm                1
+dumpcuts              0
+dumptree              0
+dumplp                0
+eachcutlim            2100000000
+epagap                0
+epgap                 0.1
+epint                 1e-005
+epmrk                 0.01
+epopt                 1e-006
+epper                 1e-006
+eprelax               1e-006
+eprhs                 1e-006
+feasopt               0
+feasoptmode           0
+.feaspref             1
+fixoptfile            
+flowcovers            0
+flowpaths             0
+flushfiles            0
+fpheur                0
+fraccand              200
+fraccuts              0
+fracpass              0
+gubcovers             0
+heurfreq              0
+iafile                
+iatriggerfile         
+iatriggertime         60
+iis                   0
+implbd                0
+interactive           0
+intsollim             2100000000
+itlim                 2000000000
+lbheur                0
+lpalg                 default
+lpmethod              0
+ltol                  0
+mcfcuts               0
+memoryemphasis        0
+mipdisplay            4
+mipemphasis           0
+mipkappastats         -1
+mipinterval           0
+mipordind             1
+mipordtype            0
+mipsearch             0
+mipstart              0
+miptrace              
+miptracenode          100
+miptracetime          1
+miqcpstrat            0
+mircuts               0
+mpslongnum            1
+mtol                  0
+names                 1
+netdisplay            2
+netepopt              1e-006
+neteprhs              1e-006
+netfind               2
+netitlim              2100000000
+netppriind            0
+nodefileind           1
+nodelim               2100000000
+nodesel               1
+numericalemphasis     0
+objdif                0
+objllim               -1e+075
+objrng               
+objulim               1e+075
+parallelmode          1
+perind                0
+perlim                0
+polishtime            0
+polishafterepagap     0
+polishafterepgap      0
+polishafternode       2100000000
+polishafterintsol     2100000000
+polishaftertime       1e+075
+polishafterdettime    1e+075
+populatelim           20
+ppriind               0
+predual               0
+preind                1
+prelinear             1
+prepass               -1
+preslvnd              0
+pricelim              0
+printoptions          0
+probe                 0
+probetime             1e+075
+probedettime          1e+075
+probread              
+qpmakepsdind          1
+qpmethod              0
+quality               0
+randomseed            0
+readflt               
+readparams            
+reduce                3
+reinv                 0
+relaxfixedinfeas      0
+relaxpreind           -1
+relobjdif             0
+repairtries           0
+repeatpresolve        -1
+rerun                 yes
+rhsrng               
+rinsheur              0
+rngrestart            
+scaind                0
+secret               
+siftalg               0
+siftdisplay           1
+siftitlim             2100000000
+simdisplay            1
+singlim               10
+solnpool              
+solnpoolagap          1e+075
+solnpoolcapacity      2100000000
+solnpoolgap           1e+075
+solnpoolintensity     0
+solnpoolpop           1
+solnpoolpopdel        
+solnpoolpoprepeat     
+solnpoolprefix        soln
+solnpoolreplace       0
+solutiontarget        0
+solvefinal            1
+startalg              0
+strongcandlim         10
+strongitlim           0
+subalg                0
+submipnodelim         500
+symmetry              -1
+threads               1
+tilim                 1000
+trelim                1e+075
+tuning                
+tuningdisplay         1
+tuningmeasure         1
+tuningrepeat          1
+tuningtilim           200
+tuningdettilim        1e+007
+usercutcall           
+usercutfirst          10
+usercutfreq           10
+usercutinterval       100
+usercutmult           2
+usercutnewint         1
+usergdxin             bchin.gdx
+usergdxsol            bchsol.gdx
+usergdxname           bchout.gdx
+usergdxnameinc        bchout_i.gdx
+usergdxprefix         
+userheurcall          
+userheurfirst         10
+userheurfreq          10
+userheurinterval      100
+userheurmult          2
+userheurnewint        1
+userheurobjfirst      0
+userincbcall          
+userincbicall         
+userjobid             
+userkeep              0
+usercgmaxcols         2147483647
+usercgadvind          1
+usercgsolopt          0
+usercgdumplp          bchcgdump.lp
+userpricingcall       
+usersolvenodelp       
+varsel                0
+waitforenter          0
+workdir               C:\Users\morteza\Desktop\payan name_ARshad\mg_4\24_bus\225a\
+workmem               128
+writebas              
+writeflt              
+writelp               
+writemps              
+writemst              
+writeord              
+writeparam            
+writepre              
+writesav              
+zerohalfcuts          0
+----------------------------------------------------
+
+Tried aggregator 2 times.
+MIP Presolve eliminated 65800 rows and 44842 columns.
+MIP Presolve modified 940 coefficients.
+Aggregator did 690 substitutions.
+Reduced MIP has 6172 rows, 5755 columns, and 24259 nonzeros.
+Reduced MIP has 964 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.17 sec. (58.58 ticks)
+Found incumbent of value 4.1247207e+023 after 0.31 sec. (113.94 ticks)
+Probing fixed 14 vars, tightened 326 bounds.
+Probing time = 0.06 sec. (7.84 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 53 rows and 31 columns.
+MIP Presolve modified 53 coefficients.
+Aggregator did 3 substitutions.
+Reduced MIP has 6115 rows, 5721 columns, and 24022 nonzeros.
+Reduced MIP has 938 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (25.84 ticks)
+Probing time = 0.02 sec. (1.51 ticks)
+Clique table members: 2509.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Tried aggregator 1 time.
+LP Presolve eliminated 62 rows and 0 columns.
+Aggregator did 66 substitutions.
+Reduced LP has 5987 rows, 5655 columns, and 23530 nonzeros.
+Presolve time = 0.02 sec. (4.55 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          7915.000000
+Iteration:   280   Dual objective     = 9653541910331393000000.000000
+Perturbation started.
+Iteration:   304   Dual objective     = 9653541910331393000000.000000
+Iteration:   522   Dual objective     = 9653541910331393000000.000000
+Iteration:   760   Dual objective     = 9653541910331393000000.000000
+Iteration:   983   Dual objective     = 9728541910331392300000.000000
+Iteration:  1186   Dual objective     = 9728541910331392300000.000000
+Iteration:  1391   Dual objective     = 9728541910331394400000.000000
+Iteration:  1548   Dual objective     = 9728541910331394400000.000000
+Iteration:  1709   Dual objective     = 9728541910331394400000.000000
+Iteration:  1884   Dual objective     = 9728541910331394400000.000000
+Iteration:  2072   Dual objective     = 10272502700888994000000.000000
+Iteration:  2245   Dual objective     = 10272502700888994000000.000000
+Iteration:  2432   Dual objective     = 11364398031052430000000.000000
+Markowitz threshold set to 0.1
+Iteration:  2495   Dual objective     = 11411940615088291000000.000000
+Iteration:  2497   Scaled dual infeas =      36780356.807000
+Iteration:  2526   Scaled dual infeas =        303716.000013
+Iteration:  2579   Scaled dual infeas =       5218860.199987
+Iteration:  2622   Scaled dual infeas =      18088471.000002
+Iteration:  2629   Scaled dual infeas =           320.000001
+Iteration:  2633   Scaled dual infeas =           320.000001
+Iteration:  2636   Scaled dual infeas =           320.000001
+Iteration:  2639   Scaled dual infeas =           320.000001
+Iteration:  2642   Scaled dual infeas =           320.000001
+Iteration:  2645   Dual objective     = 11411940615087691000000.000000
+Iteration:  2935   Dual objective     = 11457213040510135000000.000000
+Iteration:  3180   Dual objective     = 11467028762201013000000.000000
+Iteration:  3396   Dual objective     = 11484426165446725000000.000000
+Iteration:  3399   Scaled dual infeas =      60583117.999978
+Iteration:  3415   Scaled dual infeas =     100007936.000000
+Iteration:  3418   Scaled dual infeas =      27000832.000000
+Iteration:  3421   Scaled dual infeas =     100007936.000000
+Iteration:  3424   Scaled dual infeas =      27000832.000000
+Iteration:  3427   Scaled dual infeas =     100007936.000000
+Iteration:  3430   Dual objective     = 11487402407538561000000.000000
+Iteration:  3642   Dual objective     = 11728868766435775000000.000000
+Iteration:  3718   Dual objective     = 11760223619344692000000.000000
+Iteration:  3754   Dual objective     = 11760223619344692000000.000000
+Iteration:  3755   Dual objective     = 11760223619344616000000.000000
+Iteration:  3763   Dual objective     = 11760223619344616000000.000000
+Iteration:  3766   Dual objective     = 11760223619344633000000.000000
+Iteration:  3780   Dual objective     = 11760223619344591000000.000000
+Iteration:  3783   Dual objective     = 11760223619344591000000.000000
+Iteration:  3785   Dual objective     = 11760223619344591000000.000000
+Iteration:  3797   Dual objective     = 11760223619344574000000.000000
+Iteration:  3798   Dual objective     = 11760223619344574000000.000000
+Iteration:  3811   Dual objective     = 11760223619344574000000.000000
+Iteration:  3815   Dual objective     = 11760223619344572000000.000000
+Iteration:  3816   Dual objective     = 11760223619344572000000.000000
+Iteration:  3821   Dual objective     = 11760223619344572000000.000000
+Iteration:  3838   Dual objective     = 11760223619344572000000.000000
+Iteration:  3843   Dual objective     = 11760223619344574000000.000000
+Iteration:  3844   Dual objective     = 11760223619344574000000.000000
+Iteration:  3869   Dual objective     = 11760223619344557000000.000000
+Iteration:  3882   Dual objective     = 11760223619344583000000.000000
+Iteration:  3885   Dual objective     = 11760223619344583000000.000000
+Iteration:  3889   Dual objective     = 11760223619344583000000.000000
+Iteration:  3914   Dual objective     = 11761107475196409000000.000000
+Iteration:  4022   Dual objective     = 11952607313385314000000.000000
+Iteration:  4059   Dual objective     = 11952607313385058000000.000000
+Iteration:  4080   Dual objective     = 11952607313385203000000.000000
+Iteration:  4088   Scaled dual infeas =     405109826.881504
+Iteration:  4307   Dual objective     = 11952607313384960000000.000000
+Iteration:  4570   Dual objective     = 11952607313384996000000.000000
+Iteration:  4743   Dual objective     = 11952607313385025000000.000000
+Iteration:  4993   Dual objective     = 11952607313385042000000.000000
+Iteration:  5221   Dual objective     = 11952607313385040000000.000000
+Iteration:  5237   Scaled dual infeas =     243498371.287949
+Iteration:  5277   Dual objective     = 11952607313385199000000.000000
+Iteration:  5535   Dual objective     = 11952607313385199000000.000000
+Iteration:  5536   Scaled dual infeas =    1112721829.376595
+Iteration:  5608   Dual objective     = 11952607313384589000000.000000
+Iteration:  5844   Dual objective     = 11952607313384954000000.000000
+Iteration:  5875   Scaled dual infeas =     619261587.281774
+Iteration:  5941   Dual objective     = 11952607313384431000000.000000
+Iteration:  6184   Dual objective     = 11952607313384981000000.000000
+Iteration:  6362   Dual objective     = 11952607313385019000000.000000
+Iteration:  6384   Dual objective     = 11952607313385071000000.000000
+Iteration:  6388   Scaled dual infeas =     300850204.293518
+Iteration:  6547   Dual objective     = 11952607313384847000000.000000
+Iteration:  6786   Dual objective     = 11952607313384903000000.000000
+Iteration:  6926   Scaled dual infeas =     291149273.955097
+Iteration:  7003   Scaled dual infeas =     157974579.305801
+Iteration:  7021   Dual objective     = 11952607313384721000000.000000
+Iteration:  7279   Dual objective     = 11952607313384914000000.000000
+Iteration:  7448   Dual objective     = 11952607313384977000000.000000
+Iteration:  7468   Dual objective     = 11952607313384987000000.000000
+Iteration:  7485   Dual objective     = 11952607313385033000000.000000
+Iteration:  7534   Dual objective     = 11952607313385184000000.000000
+Iteration:  7574   Dual objective     = 11969273980051635000000.000000
+Iteration:  7585   Dual objective     = 11969273980051591000000.000000
+Iteration:  7590   Dual objective     = 11969273980051652000000.000000
+Iteration:  7615   Scaled dual infeas =     427585163.293986
+Iteration:  7901   Dual objective     = 11969273980051574000000.000000
+Iteration:  8150   Dual objective     = 11969273980051595000000.000000
+Iteration:  8372   Dual objective     = 11969273980051656000000.000000
+Iteration:  8390   Scaled dual infeas =     208191447.187865
+Iteration:  8545   Dual objective     = 11969273980051299000000.000000
+Iteration:  8802   Dual objective     = 11969273980051186000000.000000
+Iteration:  8954   Dual objective     = 11969273980051477000000.000000
+Iteration:  9040   Dual objective     = 11969273980051614000000.000000
+Iteration:  9087   Dual objective     = 11969273980051540000000.000000
+Iteration:  9148   Dual objective     = 11969273980051589000000.000000
+Iteration:  9228   Dual objective     = 11969273980051438000000.000000
+Iteration:  9270   Scaled dual infeas =     737733944.247692
+Iteration:  9509   Dual objective     = 11969273980051503000000.000000
+Iteration:  9723   Dual objective     = 11969273980051543000000.000000
+Iteration:  9759   Dual objective     = 11969273980051618000000.000000
+Iteration:  9808   Scaled dual infeas =     284353640.184527
+Iteration:  9979   Dual objective     = 11969273980051291000000.000000
+Iteration: 10179   Dual objective     = 11969273980051427000000.000000
+Iteration: 10204   Dual objective     = 11969273980051589000000.000000
+Iteration: 10283   Dual objective     = 11995940646718307000000.000000
+Iteration: 10321   Dual objective     = 11995940646718225000000.000000
+Iteration: 10386   Dual objective     = 11995940646718280000000.000000
+Iteration: 10410   Dual objective     = 11995940646718229000000.000000
+Iteration: 10415   Dual objective     = 11995940646718229000000.000000
+Iteration: 10447   Dual objective     = 11995940646718278000000.000000
+Iteration: 10481   Dual objective     = 11995940646718332000000.000000
+Iteration: 10533   Dual objective     = 11995940646718276000000.000000
+Iteration: 10540   Scaled dual infeas =     407110670.805947
+Iteration: 10758   Dual objective     = 11995940646718016000000.000000
+Iteration: 11011   Dual objective     = 11995940646718143000000.000000
+Iteration: 11163   Dual objective     = 11995940646718307000000.000000
+Iteration: 11267   Dual objective     = 11995940646718267000000.000000
+Iteration: 11363   Dual objective     = 11995940646718376000000.000000
+Iteration: 11377   Scaled dual infeas =     686246575.144000
+Iteration: 11592   Dual objective     = 11995940646718135000000.000000
+Iteration: 11667   Dual objective     = 11995940646718137000000.000000
+Iteration: 11812   Dual objective     = 11995940646718194000000.000000
+Iteration: 11919   Scaled dual infeas =     238263885.493338
+Iteration: 12091   Dual objective     = 11995940646718286000000.000000
+Iteration: 12221   Dual objective     = 11995940646718108000000.000000
+Iteration: 12320   Scaled dual infeas =     335491726.626935
+Iteration: 12497   Scaled dual infeas =        405047.613629
+Iteration: 12629   Scaled dual infeas =      49613834.487296
+Iteration: 12738   Dual objective     = 11995940646717938000000.000000
+Iteration: 13005   Dual objective     = 11995940646718183000000.000000
+Iteration: 13174   Dual objective     = 11995940646718204000000.000000
+Iteration: 13179   Scaled dual infeas =    1591796077.235616
+Iteration: 13269   Dual objective     = 11995940646718066000000.000000
+Iteration: 13332   Scaled dual infeas =     250403227.988561
+Iteration: 13374   Dual objective     = 11995940646718007000000.000000
+Iteration: 13558   Dual objective     = 11995940646718129000000.000000
+Iteration: 13567   Scaled dual infeas =     515313491.001556
+Iteration: 13784   Dual objective     = 11995940646718102000000.000000
+Iteration: 14056   Dual objective     = 11995940646718179000000.000000
+Iteration: 14123   Dual objective     = 11995940646718062000000.000000
+Iteration: 14143   Scaled dual infeas =   52825486385.124901
+Iteration: 14294   Dual objective     = 11995940646717955000000.000000
+Iteration: 14548   Dual objective     = 11995940646718211000000.000000
+Iteration: 14751   Dual objective     = 11995940646718188000000.000000
+Iteration: 14770   Scaled dual infeas =     437205219.754900
+Iteration: 14865   Scaled dual infeas =     689359915.295523
+Iteration: 14922   Scaled dual infeas =    5413843804.825341
+Iteration: 15014   Dual objective     = 11995940646718164000000.000000
+Iteration: 15111   Scaled dual infeas =     259594110.573898
+Iteration: 15187   Scaled dual infeas =     263547675.550476
+Iteration: 15216   Dual objective     = 11995940646718154000000.000000
+Iteration: 15461   Dual objective     = 11995940646718250000000.000000
+Iteration: 15531   Dual objective     = 11995940646718265000000.000000
+Iteration: 15629   Dual objective     = 11995940646718257000000.000000
+Iteration: 15810   Dual objective     = 11995940646718290000000.000000
+Iteration: 15819   Scaled dual infeas =     618809536.521307
+Iteration: 15971   Dual objective     = 11995940646717888000000.000000
+Iteration: 16070   Dual objective     = 11995940646718156000000.000000
+Iteration: 16283   Dual objective     = 11995940646718202000000.000000
+Iteration: 16507   Dual objective     = 11995940646718338000000.000000
+Iteration: 16519   Dual objective     = 11995940646718353000000.000000
+Iteration: 16560   Dual objective     = 11995940646718286000000.000000
+Iteration: 16613   Dual objective     = 11995940646718399000000.000000
+Iteration: 16620   Scaled dual infeas =     867425587.209124
+Iteration: 16724   Dual objective     = 11995940646718114000000.000000
+Iteration: 16978   Dual objective     = 11995940646718273000000.000000
+Iteration: 17054   Dual objective     = 11995940646718227000000.000000
+Iteration: 17055   Dual objective     = 11995940646718227000000.000000
+Iteration: 17088   Dual objective     = 11995940646718244000000.000000
+Iteration: 17145   Dual objective     = 11995940646718271000000.000000
+Iteration: 17167   Scaled dual infeas =     365872327.440149
+Iteration: 17310   Dual objective     = 11995940646718276000000.000000
+Iteration: 17541   Dual objective     = 11995940646718280000000.000000
+Iteration: 17604   Dual objective     = 11995940646718206000000.000000
+Iteration: 17678   Dual objective     = 11995940646718299000000.000000
+Iteration: 17717   Dual objective     = 11995940646718171000000.000000
+Iteration: 17740   Dual objective     = 11995940646718280000000.000000
+Iteration: 17776   Dual objective     = 11995940646718313000000.000000
+Iteration: 17786   Dual objective     = 11995940646718280000000.000000
+Iteration: 17799   Scaled dual infeas =     910089338.141299
+Iteration: 17926   Dual objective     = 11995940646718699000000.000000
+Iteration: 18160   Dual objective     = 11995940646718504000000.000000
+Iteration: 18283   Dual objective     = 11995940646718454000000.000000
+Iteration: 18288   Scaled dual infeas =     365317411.109417
+Iteration: 18424   Dual objective     = 11995940646718049000000.000000
+Iteration: 18705   Dual objective     = 11995940646718202000000.000000
+Iteration: 18921   Dual objective     = 11995940646718248000000.000000
+Iteration: 18977   Dual objective     = 11995940646718326000000.000000
+Iteration: 18986   Dual objective     = 11995940646718282000000.000000
+Iteration: 18998   Dual objective     = 11995940646718253000000.000000
+Iteration: 19019   Scaled dual infeas =     492335439.153099
+Iteration: 19209   Dual objective     = 11995940646718167000000.000000
+Iteration: 19393   Dual objective     = 11995940646718318000000.000000
+Iteration: 19399   Dual objective     = 11995940646718169000000.000000
+Iteration: 19581   Dual objective     = 11995940646718288000000.000000
+Iteration: 19709   Scaled dual infeas =     321067404.255960
+Iteration: 19809   Dual objective     = 11995940646717779000000.000000
+Iteration: 19883   Dual objective     = 11995940646718034000000.000000
+Iteration: 20095   Dual objective     = 11995940646718215000000.000000
+Iteration: 20132   Scaled dual infeas =     494508590.719849
+Iteration: 20229   Dual objective     = 11995940646718202000000.000000
+Iteration: 20426   Dual objective     = 11995940646718250000000.000000
+Iteration: 20462   Dual objective     = 11995940646718206000000.000000
+Iteration: 20659   Dual objective     = 11995940646718332000000.000000
+Iteration: 20790   Scaled dual infeas =    3314033824.827112
+Iteration: 20865   Dual objective     = 11995940646713930000000.000000
+Iteration: 21079   Dual objective     = 11995940646719991000000.000000
+Iteration: 21095   Scaled dual infeas =    1943429304.626551
+Iteration: 21168   Dual objective     = 11995940646717890000000.000000
+Iteration: 21222   Scaled dual infeas =    4203633512.402698
+Iteration: 21417   Scaled dual infeas =    1422719421.992429
+Iteration: 21454   Dual objective     = 11995940646717514000000.000000
+Iteration: 21716   Dual objective     = 11995940646717640000000.000000
+Iteration: 21729   Scaled dual infeas =    3272869354.725684
+Iteration: 21779   Dual objective     = 11995940646716933000000.000000
+Iteration: 22015   Dual objective     = 11995940646718032000000.000000
+Iteration: 22019   Scaled dual infeas =    1319623098.880503
+Iteration: 22092   Dual objective     = 11995940646717976000000.000000
+Iteration: 22165   Dual objective     = 11995940646718120000000.000000
+Iteration: 22332   Dual objective     = 11995940646718607000000.000000
+Iteration: 22345   Dual objective     = 11995940646718607000000.000000
+Iteration: 22542   Dual objective     = 11995940646718250000000.000000
+Iteration: 22563   Dual objective     = 11995940646718299000000.000000
+Iteration: 22613   Dual objective     = 11995940646717942000000.000000
+Iteration: 22620   Scaled dual infeas =     362111503.885773
+Iteration: 22775   Dual objective     = 11995940646718194000000.000000
+Iteration: 23003   Dual objective     = 11995940646718192000000.000000
+Iteration: 23004   Scaled dual infeas =     590050602.451885
+Iteration: 23257   Dual objective     = 11995940646718208000000.000000
+Iteration: 23490   Dual objective     = 11995940646718257000000.000000
+Iteration: 23583   Scaled dual infeas =     314097244.844130
+Iteration: 23663   Scaled dual infeas =     431873532.500479
+Iteration: 23730   Dual objective     = 11995940646718037000000.000000
+Iteration: 23932   Dual objective     = 11995940646718292000000.000000
+Iteration: 23936   Scaled dual infeas =     630688668.008972
+Iteration: 24131   Dual objective     = 11995940646718160000000.000000
+Iteration: 24377   Dual objective     = 11995940646718175000000.000000
+Iteration: 24378   Scaled dual infeas =     470359439.601245
+Iteration: 24454   Dual objective     = 11995940646718188000000.000000
+Iteration: 24687   Dual objective     = 11995940646718273000000.000000
+Iteration: 24689   Scaled dual infeas =     417511885.211810
+Iteration: 24738   Dual objective     = 11995940646717890000000.000000
+Iteration: 24936   Dual objective     = 11995940646718194000000.000000
+Iteration: 24937   Scaled dual infeas =    3696175716.382317
+Iteration: 25023   Scaled dual infeas =     815926632.748180
+Iteration: 25048   Dual objective     = 11995940646718127000000.000000
+Iteration: 25254   Dual objective     = 11995940646718188000000.000000
+Iteration: 25259   Scaled dual infeas =    2085113207.486089
+Iteration: 25339   Dual objective     = 11995940646717495000000.000000
+Iteration: 25528   Dual objective     = 11995940646718232000000.000000
+Iteration: 25532   Scaled dual infeas =     526230917.417561
+Iteration: 25594   Scaled dual infeas =      36067792.510851
+Iteration: 25602   Dual objective     = 11995940646717982000000.000000
+Iteration: 25681   Dual objective     = 11995940646718104000000.000000
+Iteration: 25879   Dual objective     = 11995940646718271000000.000000
+Iteration: 25883   Scaled dual infeas =     563629190.726769
+Iteration: 25960   Scaled dual infeas =     260998987.279038
+Iteration: 25992   Dual objective     = 11995940646717990000000.000000
+Iteration: 26242   Dual objective     = 11995940646718217000000.000000
+Iteration: 26328   Scaled dual infeas =     263433617.927317
+Iteration: 26371   Dual objective     = 11995940646718099000000.000000
+Iteration: 26577   Dual objective     = 11995940646718276000000.000000
+Iteration: 26612   Dual objective     = 11995940646718263000000.000000
+Iteration: 26677   Dual objective     = 11995940646718263000000.000000
+Iteration: 26758   Dual objective     = 11995940646718217000000.000000
+Iteration: 26812   Dual objective     = 11995940646718238000000.000000
+Iteration: 26826   Dual objective     = 11995940646718255000000.000000
+Iteration: 26837   Dual objective     = 11995940646718299000000.000000
+Iteration: 26876   Dual objective     = 11995940646718198000000.000000
+Iteration: 26879   Dual objective     = 11995940646718198000000.000000
+Iteration: 26894   Dual objective     = 11995940646718290000000.000000
+Iteration: 26901   Dual objective     = 11995940646718263000000.000000
+Iteration: 26919   Dual objective     = 11995940646718303000000.000000
+Iteration: 26953   Dual objective     = 11995940646718338000000.000000
+Iteration: 26984   Dual objective     = 11995940646718236000000.000000
+Iteration: 27024   Dual objective     = 11995940646718280000000.000000
+Iteration: 27032   Scaled dual infeas =     635380642.487006
+Iteration: 27361   Scaled dual infeas =      16006781.133695
+Iteration: 27370   Scaled dual infeas =     128345183.467878
+Iteration: 27488   Dual objective     = 11995940646718246000000.000000
+Iteration: 27756   Dual objective     = 11995940646718225000000.000000
+Iteration: 27809   Dual objective     = 11995940646718246000000.000000
+Iteration: 27889   Dual objective     = 11995940646718305000000.000000
+Iteration: 27980   Dual objective     = 11995940646718290000000.000000
+Iteration: 28043   Dual objective     = 11995940646718257000000.000000
+Iteration: 28054   Dual objective     = 11995940646718276000000.000000
+Iteration: 28055   Scaled dual infeas =     908515803.214427
+Iteration: 28299   Scaled dual infeas =     916928547.995676
+Iteration: 28525   Dual objective     = 11995940646717818000000.000000
+Iteration: 28788   Dual objective     = 11995940646718227000000.000000
+Iteration: 28817   Scaled dual infeas =     701944015.535558
+Iteration: 28906   Dual objective     = 11995940646718089000000.000000
+Iteration: 29122   Dual objective     = 11995940646718156000000.000000
+Iteration: 29278   Dual objective     = 11995940646718271000000.000000
+Iteration: 29289   Dual objective     = 11995940646718204000000.000000
+Iteration: 29341   Dual objective     = 11995940646718202000000.000000
+Iteration: 29412   Dual objective     = 11995940646719142000000.000000
+Iteration: 29416   Dual objective     = 11995940646718261000000.000000
+Iteration: 29447   Dual objective     = 11995940646718240000000.000000
+Iteration: 29452   Scaled dual infeas =     334645548.167748
+Iteration: 29551   Dual objective     = 11995940646718232000000.000000
+Iteration: 29699   Dual objective     = 11995940646718213000000.000000
+Iteration: 29706   Scaled dual infeas =     912383101.851264
+Iteration: 29778   Dual objective     = 11995940646717980000000.000000
+Iteration: 29821   Dual objective     = 11995940646717923000000.000000
+Iteration: 29823   Scaled dual infeas =     527212625.396840
+Iteration: 29885   Dual objective     = 11995940646718148000000.000000
+Iteration: 29905   Scaled dual infeas =     217660840.355628
+Iteration: 29946   Dual objective     = 11995940646718127000000.000000
+Iteration: 30169   Dual objective     = 11995940646718164000000.000000
+Iteration: 30198   Dual objective     = 11995940646718146000000.000000
+Iteration: 30293   Dual objective     = 11995940646718194000000.000000
+Iteration: 30315   Dual objective     = 11995940646718208000000.000000
+Iteration: 30352   Dual objective     = 11995940646717848000000.000000
+Iteration: 30389   Dual objective     = 11995940646718246000000.000000
+Iteration: 30413   Scaled dual infeas =     344915679.455294
+Iteration: 30685   Dual objective     = 11995940646718131000000.000000
+Iteration: 30920   Dual objective     = 11995940646717969000000.000000
+Iteration: 30933   Scaled dual infeas =     570586615.772546
+Iteration: 31036   Dual objective     = 11995940646717955000000.000000
+Iteration: 31286   Dual objective     = 11995940646718217000000.000000
+Iteration: 31448   Dual objective     = 11995940646718236000000.000000
+Iteration: 31566   Dual objective     = 11995940646718322000000.000000
+Iteration: 31645   Dual objective     = 11995940646718234000000.000000
+Iteration: 31683   Dual objective     = 11995940646718307000000.000000
+Iteration: 31712   Dual objective     = 11995940646718292000000.000000
+Iteration: 31748   Dual objective     = 11995940646718299000000.000000
+Iteration: 31816   Dual objective     = 11995940646718288000000.000000
+Iteration: 31831   Scaled dual infeas =     518894667.166843
+Iteration: 31932   Dual objective     = 11995940646717841000000.000000
+Iteration: 32148   Dual objective     = 11995940646718192000000.000000
+Iteration: 32217   Dual objective     = 11995940646718089000000.000000
+Iteration: 32304   Dual objective     = 11995940646718200000000.000000
+Iteration: 32315   Scaled dual infeas =     443708312.894101
+Iteration: 32425   Dual objective     = 11995940646718202000000.000000
+Iteration: 32693   Dual objective     = 11995940646718244000000.000000
+Iteration: 32749   Dual objective     = 11995940646718259000000.000000
+Iteration: 32750   Dual objective     = 11995940646718259000000.000000
+Iteration: 32764   Dual objective     = 11995940646718366000000.000000
+Iteration: 32826   Dual objective     = 11995940646718401000000.000000
+Iteration: 32829   Scaled dual infeas =     269869978.491249
+Iteration: 32996   Scaled dual infeas =     246579097.613566
+Iteration: 33092   Dual objective     = 11995940646718070000000.000000
+Iteration: 33370   Dual objective     = 11995940646718143000000.000000
+Iteration: 33616   Dual objective     = 11995940646718248000000.000000
+Iteration: 33628   Dual objective     = 11995940646718171000000.000000
+Iteration: 33642   Scaled dual infeas =     407319192.958894
+Iteration: 33795   Dual objective     = 11995940646717776000000.000000
+Iteration: 33998   Dual objective     = 11995940646717923000000.000000
+Iteration: 34109   Dual objective     = 11995940646717793000000.000000
+Iteration: 34144   Dual objective     = 11995940646717810000000.000000
+Iteration: 34186   Dual objective     = 11995940646717693000000.000000
+Iteration: 34189   Scaled dual infeas =     391343056.547607
+Iteration: 34472   Dual objective     = 11995940646717588000000.000000
+Iteration: 34735   Dual objective     = 11995940646718188000000.000000
+Iteration: 34842   Dual objective     = 11995940646718345000000.000000
+Iteration: 34893   Scaled dual infeas =     140306750.046132
+Iteration: 34944   Dual objective     = 11995940646718192000000.000000
+Iteration: 35165   Dual objective     = 11995940646718200000000.000000
+Iteration: 35167   Scaled dual infeas =     305372620.032976
+Iteration: 35240   Dual objective     = 11995940646717810000000.000000
+Iteration: 35547   Dual objective     = 11995940646718215000000.000000
+Iteration: 35780   Dual objective     = 11995940646718215000000.000000
+Iteration: 35788   Dual objective     = 11995940646718271000000.000000
+Iteration: 35843   Dual objective     = 11995940646718261000000.000000
+Iteration: 35849   Dual objective     = 11995940646718261000000.000000
+Iteration: 35897   Dual objective     = 11995940646718330000000.000000
+Iteration: 35923   Dual objective     = 11995940646718099000000.000000
+Iteration: 35927   Scaled dual infeas =     390802974.170263
+Iteration: 36152   Dual objective     = 11995940646718328000000.000000
+Iteration: 36391   Dual objective     = 11995940646718357000000.000000
+Iteration: 36411   Dual objective     = 11995940646718307000000.000000
+Iteration: 36491   Dual objective     = 11995940646718431000000.000000
+Iteration: 36519   Dual objective     = 11995940646718269000000.000000
+Iteration: 36571   Dual objective     = 11995940646718248000000.000000
+Iteration: 36619   Dual objective     = 11995940646718141000000.000000
+Iteration: 36634   Scaled dual infeas =     398300199.230554
+Iteration: 36803   Dual objective     = 11995940646718154000000.000000
+Iteration: 37024   Dual objective     = 11995940646718217000000.000000
+Iteration: 37056   Dual objective     = 11995940646718217000000.000000
+Iteration: 37075   Dual objective     = 11995940646718330000000.000000
+Iteration: 37126   Dual objective     = 11995940646718414000000.000000
+Iteration: 37149   Dual objective     = 11995940646718244000000.000000
+Iteration: 37176   Dual objective     = 11995940646718294000000.000000
+Iteration: 37215   Dual objective     = 11995940646718223000000.000000
+Iteration: 37226   Dual objective     = 11995940646718271000000.000000
+Iteration: 37250   Dual objective     = 11995940646718294000000.000000
+Iteration: 37277   Dual objective     = 11995940646718250000000.000000
+Iteration: 37310   Dual objective     = 11995940646718338000000.000000
+Iteration: 37337   Dual objective     = 11995940646718188000000.000000
+Iteration: 37379   Dual objective     = 11995940646718263000000.000000
+Iteration: 37428   Scaled dual infeas =     452392106.277850
+Iteration: 37681   Dual objective     = 11995940646718257000000.000000
+Iteration: 37922   Dual objective     = 11995940646718232000000.000000
+Iteration: 37991   Scaled dual infeas =     423964338.809679
+Iteration: 38084   Dual objective     = 11995940646718450000000.000000
+Iteration: 38181   Dual objective     = 11995940646718353000000.000000
+Iteration: 38257   Dual objective     = 11995940646718328000000.000000
+Iteration: 38301   Dual objective     = 11995940646718301000000.000000
+Iteration: 38336   Dual objective     = 11995940646718250000000.000000
+Iteration: 38361   Dual objective     = 11995940646718257000000.000000
+Iteration: 38409   Dual objective     = 11995940646718284000000.000000
+Iteration: 38442   Dual objective     = 11995940646718357000000.000000
+Iteration: 38466   Dual objective     = 11995940646718253000000.000000
+Iteration: 38494   Dual objective     = 11995940646718255000000.000000
+Iteration: 38498   Dual objective     = 11995940646718292000000.000000
+Iteration: 38570   Dual objective     = 11995940646718292000000.000000
+Iteration: 38594   Dual objective     = 11995940646718303000000.000000
+Iteration: 38629   Dual objective     = 11995940646718253000000.000000
+Iteration: 38632   Dual objective     = 11995940646718320000000.000000
+Iteration: 38647   Scaled dual infeas =    2293197969.477307
+Iteration: 38908   Scaled dual infeas =           580.697425
+Iteration: 38914   Scaled dual infeas =     363648980.918526
+Iteration: 38968   Dual objective     = 11995940646717730000000.000000
+Iteration: 39259   Dual objective     = 11995940646718225000000.000000
+Iteration: 39513   Dual objective     = 11995940646718244000000.000000
+Iteration: 39567   Dual objective     = 11995940646718248000000.000000
+Iteration: 39578   Scaled dual infeas =     295088702.826302
+Iteration: 39742   Dual objective     = 11995940646718146000000.000000
+Iteration: 39984   Dual objective     = 11995940646718324000000.000000
+Iteration: 40075   Dual objective     = 11995940646717739000000.000000
+Iteration: 40080   Dual objective     = 11995940646718290000000.000000
+Iteration: 40147   Dual objective     = 11995940646718307000000.000000
+Iteration: 40221   Dual objective     = 11995940646718248000000.000000
+Iteration: 40270   Dual objective     = 11995940646718273000000.000000
+Iteration: 40288   Dual objective     = 11995940646718280000000.000000
+Iteration: 40306   Dual objective     = 11995940646718278000000.000000
+Iteration: 40333   Dual objective     = 11995940646718315000000.000000
+Iteration: 40379   Dual objective     = 11995940646718190000000.000000
+Iteration: 40385   Dual objective     = 11995940646718215000000.000000
+Iteration: 40396   Dual objective     = 11995940646718221000000.000000
+Iteration: 40403   Dual objective     = 11995940646718200000000.000000
+Iteration: 40432   Dual objective     = 11995940646718523000000.000000
+Iteration: 40438   Dual objective     = 11995940646718244000000.000000
+Iteration: 40465   Dual objective     = 11995940646718269000000.000000
+Iteration: 40481   Dual objective     = 11995940646718318000000.000000
+Iteration: 40505   Scaled dual infeas =     215431006.783587
+Iteration: 40734   Scaled dual infeas =       1794549.332918
+Iteration: 40948   Scaled dual infeas =        106649.263162
+Iteration: 40962   Dual objective     = 11995940646718204000000.000000
+Iteration: 41217   Dual objective     = 11995940646718269000000.000000
+Iteration: 41319   Dual objective     = 11995940646718242000000.000000
+Iteration: 41435   Dual objective     = 11995940646718299000000.000000
+Iteration: 41460   Dual objective     = 11995940646718244000000.000000
+Iteration: 41471   Dual objective     = 11995940646718257000000.000000
+Iteration: 41499   Dual objective     = 11995940646718225000000.000000
+Iteration: 41531   Dual objective     = 11995940646718173000000.000000
+Iteration: 41543   Dual objective     = 11995940646718215000000.000000
+Iteration: 41554   Dual objective     = 11995940646718320000000.000000
+Iteration: 41566   Dual objective     = 11995940646718315000000.000000
+Iteration: 41600   Dual objective     = 11995940646718349000000.000000
+Iteration: 41603   Dual objective     = 11995940646718349000000.000000
+Iteration: 41630   Dual objective     = 11995940646718273000000.000000
+Iteration: 41645   Dual objective     = 11995940646718263000000.000000
+Iteration: 41666   Dual objective     = 11995940646718347000000.000000
+Iteration: 41682   Dual objective     = 11995940646718223000000.000000
+Iteration: 41728   Dual objective     = 11995940646718303000000.000000
+Iteration: 41748   Dual objective     = 11995940646718257000000.000000
+Iteration: 41767   Dual objective     = 11995940646718261000000.000000
+Iteration: 41787   Dual objective     = 11995940646718273000000.000000
+Iteration: 41802   Dual objective     = 11995940646718246000000.000000
+Iteration: 41815   Dual objective     = 11995940646718234000000.000000
+Iteration: 41826   Dual objective     = 11995940646718208000000.000000
+Iteration: 41837   Dual objective     = 11995940646718229000000.000000
+Iteration: 41848   Dual objective     = 11995940646718190000000.000000
+Iteration: 41864   Dual objective     = 11995940646718202000000.000000
+Iteration: 41884   Dual objective     = 11995940646718236000000.000000
+Iteration: 41901   Dual objective     = 11995940646718269000000.000000
+Iteration: 41917   Dual objective     = 11995940646718406000000.000000
+Iteration: 41918   Dual objective     = 11995940646718445000000.000000
+Iteration: 41923   Dual objective     = 11995940646718299000000.000000
+Iteration: 41929   Dual objective     = 11995940646718408000000.000000
+Iteration: 41948   Dual objective     = 11995940646718299000000.000000
+Iteration: 41951   Dual objective     = 11995940646718267000000.000000
+Iteration: 41958   Dual objective     = 11995940646718290000000.000000
+Iteration: 41974   Dual objective     = 11995940646718278000000.000000
+Iteration: 42006   Dual objective     = 11995940646718297000000.000000
+Iteration: 42013   Dual objective     = 11995940646718250000000.000000
+Iteration: 42022   Dual objective     = 11995940646718301000000.000000
+Iteration: 42032   Dual objective     = 11995940646718290000000.000000
+Iteration: 42040   Dual objective     = 11995940646718393000000.000000
+Iteration: 42045   Dual objective     = 11995940646718288000000.000000
+Iteration: 42048   Dual objective     = 11995940646718334000000.000000
+Iteration: 42081   Dual objective     = 11995940646718418000000.000000
+Iteration: 42093   Dual objective     = 11995940646718261000000.000000
+Iteration: 42096   Dual objective     = 11995940646718261000000.000000
+Iteration: 42107   Dual objective     = 11995940646718229000000.000000
+Iteration: 42114   Dual objective     = 11995940646718185000000.000000
+Iteration: 42121   Dual objective     = 11995940646718202000000.000000
+Iteration: 42126   Dual objective     = 11995940646718280000000.000000
+Iteration: 42128   Dual objective     = 11995940646718280000000.000000
+Iteration: 42135   Dual objective     = 11995940646718261000000.000000
+Iteration: 42141   Dual objective     = 11995940646718305000000.000000
+Iteration: 42146   Dual objective     = 11995940646718294000000.000000
+Iteration: 42153   Dual objective     = 11995940646718290000000.000000
+Iteration: 42174   Dual objective     = 11995940646718280000000.000000
+Iteration: 42215   Dual objective     = 11995940646718211000000.000000
+Iteration: 42221   Dual objective     = 11995940646718332000000.000000
+Removing perturbation.
+Iteration: 42222   Scaled dual infeas =     160317495.494168
+Iteration: 42655   Scaled dual infeas =       3507458.321445
+Iteration: 42746   Scaled dual infeas =      10731794.428190
+Iteration: 42797   Scaled dual infeas =        196928.000000
+Iteration: 42802   Dual objective     = 11995940646718232000000.000000
+Iteration: 43096   Dual objective     = 11995940646718242000000.000000
+Iteration: 43354   Dual objective     = 11995940646718261000000.000000
+Reperturbation started.
+Iteration: 43362   Scaled dual infeas =      67423069.747822
+Iteration: 43462   Scaled dual infeas =        494738.826087
+Iteration: 43471   Dual objective     = 11995940646718032000000.000000
+Iteration: 43744   Dual objective     = 11995940646718177000000.000000
+Iteration: 43854   Scaled dual infeas =       6798885.766572
+Iteration: 43911   Scaled dual infeas =      92181517.674639
+Iteration: 43980   Scaled dual infeas =             0.000000
+Iteration: 43981   Dual objective     = 11995940646717999000000.000000
+Iteration: 44276   Dual objective     = 11995940646718190000000.000000
+Iteration: 44483   Dual objective     = 11995940646718280000000.000000
+Iteration: 44497   Scaled dual infeas =     105404084.891672
+Iteration: 44543   Scaled dual infeas =       1035602.233333
+Iteration: 44555   Scaled dual infeas =         65981.000000
+Iteration: 44559   Scaled dual infeas =        131212.000000
+Iteration: 44562   Scaled dual infeas =         65676.000000
+Iteration: 44565   Scaled dual infeas =        131212.000000
+Iteration: 44568   Dual objective     = 11995940646718104000000.000000
+Iteration: 44819   Dual objective     = 11995940646718217000000.000000
+Iteration: 44820   Scaled dual infeas =      19768134.548600
+Iteration: 44890   Dual objective     = 11995940646718213000000.000000
+Iteration: 45088   Dual objective     = 11995940646718223000000.000000
+Iteration: 45095   Scaled dual infeas =     183554064.264400
+Iteration: 45195   Scaled dual infeas =     251630548.361834
+Iteration: 45264   Dual objective     = 11995940646717835000000.000000
+Iteration: 45489   Dual objective     = 11995940646718294000000.000000
+Iteration: 45496   Scaled dual infeas =     151723188.274992
+Iteration: 45544   Dual objective     = 11995940646718236000000.000000
+Iteration: 45756   Dual objective     = 11995940646718234000000.000000
+Iteration: 45757   Scaled dual infeas =     404536348.986742
+Iteration: 45890   Scaled dual infeas =     205262491.815035
+Iteration: 45960   Dual objective     = 11995940646718108000000.000000
+Iteration: 46245   Dual objective     = 11995940646718215000000.000000
+Iteration: 46257   Scaled dual infeas =     386207335.543355
+Iteration: 46333   Dual objective     = 11995940646717890000000.000000
+Iteration: 46606   Dual objective     = 11995940646718223000000.000000
+Iteration: 46613   Scaled dual infeas =     227243548.487577
+Iteration: 46654   Dual objective     = 11995940646718185000000.000000
+Iteration: 46936   Dual objective     = 11995940646718229000000.000000
+Iteration: 47153   Dual objective     = 11995940646718280000000.000000
+Iteration: 47154   Scaled dual infeas =     161857260.735276
+Iteration: 47272   Dual objective     = 11995940646718223000000.000000
+Iteration: 47515   Dual objective     = 11995940646718244000000.000000
+Iteration: 47519   Scaled dual infeas =     162844028.442149
+Iteration: 47644   Dual objective     = 11995940646718177000000.000000
+Iteration: 47878   Dual objective     = 11995940646718192000000.000000
+Iteration: 48070   Dual objective     = 11995940646718229000000.000000
+Iteration: 48080   Scaled dual infeas =     622482217.074804
+Iteration: 48180   Scaled dual infeas =     295731050.593779
+Iteration: 48218   Dual objective     = 11995940646718097000000.000000
+Iteration: 48465   Dual objective     = 11995940646718244000000.000000
+Iteration: 48467   Dual objective     = 11995940646718282000000.000000
+Iteration: 48497   Dual objective     = 11995940646718282000000.000000
+Iteration: 48675   Dual objective     = 11995940646718267000000.000000
+Iteration: 48724   Dual objective     = 11995940646718255000000.000000
+Iteration: 48749   Scaled dual infeas =     215251475.852824
+Iteration: 48847   Dual objective     = 11995940646718244000000.000000
+Iteration: 49090   Dual objective     = 11995940646718292000000.000000
+Iteration: 49175   Dual objective     = 11995940646718257000000.000000
+Iteration: 49230   Dual objective     = 11995940646718269000000.000000
+Iteration: 49298   Dual objective     = 11995940646718238000000.000000
+Iteration: 49309   Scaled dual infeas =     530720488.814616
+Iteration: 49470   Scaled dual infeas =      86606885.111111
+Iteration: 49488   Dual objective     = 11995940646717344000000.000000
+Iteration: 49800   Dual objective     = 11995940646718202000000.000000
+Iteration: 49901   Dual objective     = 11995940646718307000000.000000
+Iteration: 50004   Dual objective     = 11995940646718313000000.000000
+Iteration: 50062   Dual objective     = 11995940646718253000000.000000
+Iteration: 50090   Dual objective     = 11995940646718232000000.000000
+Iteration: 50108   Dual objective     = 11995940646718244000000.000000
+Iteration: 50122   Dual objective     = 11995940646718276000000.000000
+Iteration: 50192   Dual objective     = 11995940646718257000000.000000
+Iteration: 50194   Scaled dual infeas =     149783594.588219
+Iteration: 50325   Dual objective     = 11995940646718269000000.000000
+Iteration: 50577   Dual objective     = 11995940646718301000000.000000
+Iteration: 50578   Scaled dual infeas =     310983239.921508
+Iteration: 50698   Dual objective     = 11995940646718070000000.000000
+Iteration: 50904   Dual objective     = 11995940646718192000000.000000
+Iteration: 50970   Dual objective     = 11995940646718246000000.000000
+Iteration: 50995   Dual objective     = 11995940646718297000000.000000
+Iteration: 50996   Dual objective     = 11995940646718246000000.000000
+Iteration: 51051   Dual objective     = 11995940646718286000000.000000
+Iteration: 51104   Dual objective     = 11995940646718284000000.000000
+Iteration: 51147   Dual objective     = 11995940646718164000000.000000
+Iteration: 51149   Scaled dual infeas =     340552401.691173
+Iteration: 51369   Dual objective     = 11995940646718175000000.000000
+Iteration: 51601   Dual objective     = 11995940646718188000000.000000
+Iteration: 51648   Dual objective     = 11995940646718217000000.000000
+Iteration: 51673   Dual objective     = 11995940646718240000000.000000
+Iteration: 51687   Scaled dual infeas =     286164679.135713
+Iteration: 51800   Dual objective     = 11995940646718200000000.000000
+Iteration: 52029   Dual objective     = 11995940646718273000000.000000
+Iteration: 52031   Scaled dual infeas =     614494118.598391
+Iteration: 52126   Dual objective     = 11995940646717913000000.000000
+Iteration: 52347   Dual objective     = 11995940646718318000000.000000
+Iteration: 52352   Scaled dual infeas =     531891595.172549
+Iteration: 52406   Dual objective     = 11995940646718221000000.000000
+Iteration: 52665   Dual objective     = 11995940646718265000000.000000
+Iteration: 52796   Dual objective     = 11995940646718248000000.000000
+Iteration: 52801   Scaled dual infeas =     268267205.066548
+Iteration: 52898   Dual objective     = 11995940646717974000000.000000
+Iteration: 53141   Dual objective     = 11995940646718179000000.000000
+Iteration: 53142   Scaled dual infeas =     240502589.344310
+Iteration: 53274   Dual objective     = 11995940646718167000000.000000
+Iteration: 53500   Dual objective     = 11995940646718206000000.000000
+Iteration: 53519   Scaled dual infeas =     590230577.548189
+Iteration: 53618   Dual objective     = 11995940646717177000000.000000
+Iteration: 53873   Dual objective     = 11995940646718227000000.000000
+Iteration: 54088   Dual objective     = 11995940646718229000000.000000
+Iteration: 54096   Scaled dual infeas =     376257838.588551
+Iteration: 54229   Dual objective     = 11995940646718253000000.000000
+Iteration: 54453   Dual objective     = 11995940646718303000000.000000
+Iteration: 54461   Dual objective     = 11995940646718211000000.000000
+Iteration: 54462   Scaled dual infeas =     292816156.709197
+Iteration: 54542   Dual objective     = 11995940646717370000000.000000
+Iteration: 54777   Dual objective     = 11995940646718188000000.000000
+Iteration: 54785   Scaled dual infeas =     570415185.854821
+Iteration: 54840   Dual objective     = 11995940646717451000000.000000
+Iteration: 55155   Dual objective     = 11995940646718141000000.000000
+Iteration: 55288   Dual objective     = 11995940646718280000000.000000
+Iteration: 55290   Scaled dual infeas =     265754025.518082
+Iteration: 55366   Dual objective     = 11995940646718278000000.000000
+Iteration: 55592   Dual objective     = 11995940646718353000000.000000
+Iteration: 55691   Dual objective     = 11995940646718343000000.000000
+Iteration: 55703   Scaled dual infeas =     194831132.147833
+Iteration: 55768   Dual objective     = 11995940646718120000000.000000
+Iteration: 55807   Dual objective     = 11995940646718179000000.000000
+Iteration: 56014   Dual objective     = 11995940646718225000000.000000
+Iteration: 56023   Scaled dual infeas =     710600725.101436
+Iteration: 56109   Dual objective     = 11995940646717810000000.000000
+Iteration: 56376   Dual objective     = 11995940646718112000000.000000
+Iteration: 56377   Scaled dual infeas =     391479254.567680
+Iteration: 56418   Scaled dual infeas =    1866274313.014969
+Iteration: 56478   Scaled dual infeas =     560719171.846433
+Iteration: 56532   Dual objective     = 11995940646717913000000.000000
+Iteration: 56833   Dual objective     = 11995940646718173000000.000000
+Iteration: 56844   Scaled dual infeas =     143745230.345780
+Iteration: 56877   Scaled dual infeas =     353955484.540735
+Iteration: 56900   Dual objective     = 11995940646718083000000.000000
+Iteration: 57203   Dual objective     = 11995940646718171000000.000000
+Iteration: 57414   Dual objective     = 11995940646718244000000.000000
+Iteration: 57444   Dual objective     = 11995940646718282000000.000000
+Iteration: 57492   Dual objective     = 11995940646718194000000.000000
+Iteration: 57495   Scaled dual infeas =     212869682.673127
+Iteration: 57661   Dual objective     = 11995940646718208000000.000000
+Iteration: 57893   Dual objective     = 11995940646718208000000.000000
+Iteration: 57909   Dual objective     = 11995940646718208000000.000000
+Iteration: 58080   Dual objective     = 11995940646718133000000.000000
+Iteration: 58132   Scaled dual infeas =     315179474.689039
+Iteration: 58273   Dual objective     = 11995940646718198000000.000000
+Iteration: 58527   Dual objective     = 11995940646718318000000.000000
+Iteration: 58612   Dual objective     = 11995940646718389000000.000000
+Iteration: 58727   Dual objective     = 11995940646718345000000.000000
+Iteration: 58730   Dual objective     = 11995940646718240000000.000000
+Iteration: 58748   Dual objective     = 11995940646718250000000.000000
+Iteration: 58758   Dual objective     = 11995940646718299000000.000000
+Iteration: 58773   Dual objective     = 11995940646718330000000.000000
+Iteration: 58832   Dual objective     = 11995940646718330000000.000000
+Iteration: 58873   Dual objective     = 11995940646718288000000.000000
+Iteration: 58885   Scaled dual infeas =     307612469.079306
+Iteration: 59019   Dual objective     = 11995940646718273000000.000000
+Iteration: 59260   Dual objective     = 11995940646718269000000.000000
+Iteration: 59273   Dual objective     = 11995940646718238000000.000000
+Iteration: 59317   Scaled dual infeas =    3722816674.367566
+Iteration: 59462   Dual objective     = 11995940646717061000000.000000
+Iteration: 59700   Dual objective     = 11995940646718188000000.000000
+Iteration: 59722   Scaled dual infeas =     486652784.708237
+Iteration: 59789   Scaled dual infeas =    4578590956.355740
+Iteration: 59859   Scaled dual infeas =    1219721992.429415
+Iteration: 59884   Scaled dual infeas =     803929078.787761
+Iteration: 59902   Dual objective     = 11995940646706932000000.000000
+Iteration: 60171   Dual objective     = 11995940646718152000000.000000
+Iteration: 60189   Scaled dual infeas =     499528227.738375
+Iteration: 60246   Scaled dual infeas =     297063053.475215
+Iteration: 60260   Dual objective     = 11995940646717948000000.000000
+Iteration: 60507   Dual objective     = 11995940646718160000000.000000
+Iteration: 60630   Dual objective     = 11995940646718290000000.000000
+Iteration: 60766   Dual objective     = 11995940646718378000000.000000
+Iteration: 60772   Scaled dual infeas =     494830043.988451
+Iteration: 60877   Dual objective     = 11995940646717869000000.000000
+Iteration: 61096   Dual objective     = 11995940646718190000000.000000
+Iteration: 61102   Scaled dual infeas =     608529828.760378
+Iteration: 61184   Dual objective     = 11995940646718213000000.000000
+Iteration: 61421   Dual objective     = 11995940646718255000000.000000
+Iteration: 61672   Dual objective     = 11995940646718288000000.000000
+Iteration: 61673   Scaled dual infeas =     208839367.765487
+Iteration: 61765   Scaled dual infeas =     376277362.664266
+Iteration: 61869   Dual objective     = 11995940646717875000000.000000
+Iteration: 62074   Dual objective     = 11995940646718169000000.000000
+Iteration: 62188   Dual objective     = 11995940646718290000000.000000
+Iteration: 62278   Dual objective     = 11995940646717527000000.000000
+Iteration: 62286   Scaled dual infeas =     448429127.319896
+Iteration: 62426   Dual objective     = 11995940646718372000000.000000
+Iteration: 62660   Dual objective     = 11995940646718368000000.000000
+Iteration: 62764   Dual objective     = 11995940646718250000000.000000
+Iteration: 62901   Dual objective     = 11995940646718236000000.000000
+Iteration: 63005   Dual objective     = 11995940646718271000000.000000
+Iteration: 63109   Dual objective     = 11995940646718267000000.000000
+Iteration: 63202   Dual objective     = 11995940646718347000000.000000
+Iteration: 63211   Dual objective     = 11995940646718221000000.000000
+Iteration: 63259   Dual objective     = 11995940646718265000000.000000
+Iteration: 63365   Dual objective     = 11995940646718332000000.000000
+Iteration: 63376   Scaled dual infeas =     323064099.097403
+Iteration: 63560   Dual objective     = 11995940646718332000000.000000
+Iteration: 63788   Dual objective     = 11995940646718318000000.000000
+Iteration: 63799   Dual objective     = 11995940646718303000000.000000
+Iteration: 63874   Dual objective     = 11995940646718286000000.000000
+Iteration: 63893   Dual objective     = 11995940646718424000000.000000
+Iteration: 63943   Dual objective     = 11995940646718271000000.000000
+Iteration: 63965   Dual objective     = 11995940646718299000000.000000
+Iteration: 63980   Dual objective     = 11995940646718294000000.000000
+Iteration: 63990   Dual objective     = 11995940646718297000000.000000
+Iteration: 64019   Dual objective     = 11995940646718273000000.000000
+Iteration: 64049   Dual objective     = 11995940646718282000000.000000
+Iteration: 64051   Scaled dual infeas =     667204853.870891
+Iteration: 64325   Dual objective     = 11995940646718198000000.000000
+Iteration: 64542   Dual objective     = 11995940646718294000000.000000
+Iteration: 64660   Dual objective     = 11995940646718294000000.000000
+Iteration: 64668   Dual objective     = 11995940646718297000000.000000
+Iteration: 64791   Dual objective     = 11995940646718294000000.000000
+Iteration: 64838   Dual objective     = 11995940646718299000000.000000
+Iteration: 64908   Scaled dual infeas =     420219175.109060
+Iteration: 65096   Dual objective     = 11995940646718114000000.000000
+Iteration: 65326   Dual objective     = 11995940646718185000000.000000
+Iteration: 65417   Dual objective     = 11995940646718229000000.000000
+Iteration: 65429   Scaled dual infeas =     615763337.383313
+Iteration: 65600   Scaled dual infeas =     572164256.965535
+Iteration: 65633   Dual objective     = 11995940646718162000000.000000
+Iteration: 65907   Dual objective     = 11995940646718332000000.000000
+Iteration: 66012   Scaled dual infeas =     549072453.670228
+Iteration: 66045   Dual objective     = 11995940646717609000000.000000
+Iteration: 66252   Dual objective     = 11995940646718267000000.000000
+Iteration: 66273   Dual objective     = 11995940646718242000000.000000
+Iteration: 66280   Dual objective     = 11995940646718242000000.000000
+Iteration: 66281   Scaled dual infeas =     718615543.191248
+Iteration: 66434   Dual objective     = 11995940646718221000000.000000
+Iteration: 66672   Dual objective     = 11995940646718196000000.000000
+Iteration: 66687   Dual objective     = 11995940646718181000000.000000
+Iteration: 66764   Dual objective     = 11995940646718202000000.000000
+Iteration: 66852   Scaled dual infeas =    2135033082.987066
+Iteration: 67036   Scaled dual infeas =       2614668.870869
+Iteration: 67160   Dual objective     = 11995940646718127000000.000000
+Iteration: 67359   Dual objective     = 11995940646718253000000.000000
+Iteration: 67428   Dual objective     = 11995940646718301000000.000000
+Iteration: 67435   Scaled dual infeas =     440791704.366527
+Iteration: 67702   Dual objective     = 11995940646718234000000.000000
+Iteration: 67903   Dual objective     = 11995940646718250000000.000000
+Iteration: 67978   Dual objective     = 11995940646718324000000.000000
+Iteration: 68009   Dual objective     = 11995940646718408000000.000000
+Iteration: 68015   Scaled dual infeas =     995357781.999344
+Iteration: 68312   Scaled dual infeas =    1152675047.682380
+Iteration: 68530   Dual objective     = 11995940646718179000000.000000
+Iteration: 68787   Dual objective     = 11995940646718190000000.000000
+Iteration: 68789   Scaled dual infeas =     640128053.517964
+Iteration: 68863   Dual objective     = 11995940646716172000000.000000
+Iteration: 69121   Dual objective     = 11995940646718196000000.000000
+Iteration: 69328   Dual objective     = 11995940646718223000000.000000
+Iteration: 69499   Dual objective     = 11995940646718232000000.000000
+Iteration: 69502   Dual objective     = 11995940646718146000000.000000
+Iteration: 69560   Dual objective     = 11995940646718238000000.000000
+Iteration: 69633   Dual objective     = 11995940646718066000000.000000
+Iteration: 69664   Scaled dual infeas =    1972405458.593194
+Iteration: 69812   Dual objective     = 11995940646714442000000.000000
+Iteration: 70015   Dual objective     = 11995940646718192000000.000000
+Iteration: 70229   Dual objective     = 11995940646718225000000.000000
+Iteration: 70432   Dual objective     = 11995940646718273000000.000000
+Iteration: 70483   Dual objective     = 11995940646718282000000.000000
+Iteration: 70499   Dual objective     = 11995940646718248000000.000000
+Iteration: 70508   Dual objective     = 11995940646718294000000.000000
+Iteration: 70535   Dual objective     = 11995940646718269000000.000000
+Iteration: 70565   Dual objective     = 11995940646718265000000.000000
+Iteration: 70571   Dual objective     = 11995940646718290000000.000000
+Iteration: 70609   Dual objective     = 11995940646718341000000.000000
+Iteration: 70634   Dual objective     = 11995940646718278000000.000000
+Iteration: 70654   Dual objective     = 11995940646718299000000.000000
+Iteration: 70716   Dual objective     = 11995940646718301000000.000000
+Iteration: 70752   Dual objective     = 11995940646718301000000.000000
+Iteration: 70796   Dual objective     = 11995940646718223000000.000000
+Iteration: 70810   Dual objective     = 11995940646718290000000.000000
+Iteration: 70819   Dual objective     = 11995940646718320000000.000000
+Iteration: 70822   Dual objective     = 11995940646718320000000.000000
+Iteration: 70851   Dual objective     = 11995940646718420000000.000000
+Iteration: 70877   Dual objective     = 11995940646717818000000.000000
+Iteration: 70922   Dual objective     = 11995940646719274000000.000000
+Iteration: 70949   Dual objective     = 11995940646718173000000.000000
+Iteration: 70999   Dual objective     = 11995940646718307000000.000000
+Iteration: 71040   Dual objective     = 11995940646718370000000.000000
+Iteration: 71095   Dual objective     = 11995940646718213000000.000000
+Iteration: 71100   Scaled dual infeas =    1147880855.915488
+Iteration: 71352   Scaled dual infeas =       9068863.601875
+Iteration: 71595   Scaled dual infeas =        582805.178506
+Iteration: 71603   Dual objective     = 11995940646718414000000.000000
+Iteration: 71877   Dual objective     = 11995940646718338000000.000000
+Iteration: 72106   Dual objective     = 11995940646718307000000.000000
+Iteration: 72124   Dual objective     = 11995940646718334000000.000000
+Iteration: 72133   Dual objective     = 11995940646718328000000.000000
+Iteration: 72177   Dual objective     = 11995940646718294000000.000000
+Iteration: 72213   Scaled dual infeas =     443714583.370610
+Iteration: 72316   Dual objective     = 11995940646718290000000.000000
+Iteration: 72468   Dual objective     = 11995940646718315000000.000000
+Iteration: 72671   Dual objective     = 11995940646718263000000.000000
+Iteration: 72677   Scaled dual infeas =     366745149.315662
+Iteration: 72777   Dual objective     = 11995940646718162000000.000000
+Iteration: 73025   Dual objective     = 11995940646718198000000.000000
+Iteration: 73033   Scaled dual infeas =    1556165371.688479
+Iteration: 73177   Scaled dual infeas =     590508570.821964
+Iteration: 73236   Dual objective     = 11995940646717766000000.000000
+Iteration: 73504   Dual objective     = 11995940646718238000000.000000
+Iteration: 73505   Scaled dual infeas =     624801873.972593
+Iteration: 73592   Dual objective     = 11995940646718179000000.000000
+Iteration: 73816   Dual objective     = 11995940646718202000000.000000
+Iteration: 73818   Dual objective     = 11995940646718232000000.000000
+Iteration: 73981   Dual objective     = 11995940646718273000000.000000
+Iteration: 73983   Scaled dual infeas =    1038995328.773145
+Iteration: 74293   Dual objective     = 11995940646718173000000.000000
+Iteration: 74485   Dual objective     = 11995940646718299000000.000000
+Iteration: 74498   Dual objective     = 11995940646718301000000.000000
+Iteration: 74670   Dual objective     = 11995940646717667000000.000000
+Iteration: 74735   Dual objective     = 11995940646718292000000.000000
+Iteration: 74823   Dual objective     = 11995940646718156000000.000000
+Iteration: 74871   Dual objective     = 11995940646718257000000.000000
+Iteration: 74892   Dual objective     = 11995940646718255000000.000000
+Iteration: 74945   Dual objective     = 11995940646718269000000.000000
+Iteration: 75017   Dual objective     = 11995940646718324000000.000000
+Iteration: 75018   Dual objective     = 11995940646718343000000.000000
+Iteration: 75046   Dual objective     = 11995940646718357000000.000000
+Iteration: 75082   Dual objective     = 11995940646718269000000.000000
+Iteration: 75096   Dual objective     = 11995940646718362000000.000000
+Iteration: 75128   Dual objective     = 11995940646718332000000.000000
+Iteration: 75170   Dual objective     = 11995940646718273000000.000000
+Iteration: 75212   Dual objective     = 11995940646718271000000.000000
+Iteration: 75224   Dual objective     = 11995940646718271000000.000000
+Iteration: 75290   Dual objective     = 11995940646718307000000.000000
+Iteration: 75313   Dual objective     = 11995940646718351000000.000000
+Iteration: 75317   Dual objective     = 11995940646718223000000.000000
+Iteration: 75350   Dual objective     = 11995940646718240000000.000000
+Iteration: 75395   Dual objective     = 11995940646718299000000.000000
+Iteration: 75406   Dual objective     = 11995940646718299000000.000000
+Iteration: 75422   Dual objective     = 11995940646717659000000.000000
+Iteration: 75446   Dual objective     = 11995940646717695000000.000000
+Iteration: 75458   Dual objective     = 11995940646717663000000.000000
+Iteration: 75465   Dual objective     = 11995940646717609000000.000000
+Iteration: 75476   Dual objective     = 11995940646717957000000.000000
+Iteration: 75488   Dual objective     = 11995940646718013000000.000000
+Iteration: 75492   Dual objective     = 11995940646717959000000.000000
+Iteration: 75515   Scaled dual infeas =    3016562526.944339
+Iteration: 75839   Scaled dual infeas =       9258100.644095
+Iteration: 75984   Dual objective     = 11995940646718246000000.000000
+Iteration: 76166   Dual objective     = 11995940646718299000000.000000
+Iteration: 76238   Dual objective     = 11995940646718261000000.000000
+Iteration: 76255   Dual objective     = 11995940646718255000000.000000
+Iteration: 76310   Dual objective     = 11995940646718376000000.000000
+Iteration: 76333   Dual objective     = 11995940646718318000000.000000
+Iteration: 76334   Dual objective     = 11995940646718357000000.000000
+Iteration: 76340   Dual objective     = 11995940646718284000000.000000
+Iteration: 76347   Dual objective     = 11995940646718288000000.000000
+Iteration: 76371   Dual objective     = 11995940646718292000000.000000
+Iteration: 76377   Dual objective     = 11995940646718315000000.000000
+Iteration: 76378   Dual objective     = 11995940646718334000000.000000
+Iteration: 76391   Dual objective     = 11995940646718330000000.000000
+Iteration: 76402   Dual objective     = 11995940646718364000000.000000
+Iteration: 76409   Dual objective     = 11995940646718359000000.000000
+Iteration: 76411   Dual objective     = 11995940646718263000000.000000
+Iteration: 76444   Dual objective     = 11995940646718259000000.000000
+Iteration: 76446   Dual objective     = 11995940646718232000000.000000
+Iteration: 76480   Dual objective     = 11995940646718162000000.000000
+Iteration: 76487   Dual objective     = 11995940646718217000000.000000
+Iteration: 76493   Dual objective     = 11995940646718284000000.000000
+Iteration: 76495   Dual objective     = 11995940646718257000000.000000
+Iteration: 76496   Dual objective     = 11995940646718217000000.000000
+Iteration: 76498   Dual objective     = 11995940646718284000000.000000
+Iteration: 76499   Dual objective     = 11995940646718267000000.000000
+Iteration: 76507   Dual objective     = 11995940646718280000000.000000
+Iteration: 76531   Dual objective     = 11995940646718213000000.000000
+Iteration: 76532   Dual objective     = 11995940646718267000000.000000
+Iteration: 76533   Dual objective     = 11995940646718311000000.000000
+Removing perturbation.
+Iteration: 76534   Dual infeasibility =      58891631.159372
+Iteration: 76981   Dual infeasibility =         38109.678465
+Iteration: 77023   Dual infeasibility =      55116843.337261
+Perturbation started.
+Iteration: 77039   Dual infeasibility =      42883448.614808
+Iteration: 77214   Dual infeasibility =      26517357.318330
+Iteration: 77383   Dual infeasibility =      28746661.261936
+Iteration: 77439   Dual infeasibility =      53660622.423741
+Iteration: 77495   Dual infeasibility =     165920408.233875
+Iteration: 77525   Dual infeasibility =             0.000000
+Iteration: 77526   Dual objective     = 11995940646717946000000.000000
+Iteration: 77719   Dual objective     = 11995940646718095000000.000000
+Iteration: 77748   Dual infeasibility =      42985620.629453
+Iteration: 77931   Dual infeasibility =       8654985.755897
+Iteration: 77969   Dual infeasibility =         11523.477445
+Iteration: 77972   Dual objective     = 11995940646718089000000.000000
+Iteration: 78127   Dual objective     = 11995940646718104000000.000000
+Iteration: 78210   Dual objective     = 11995940646718190000000.000000
+Iteration: 78216   Dual infeasibility =     122577547.170664
+Iteration: 78311   Dual infeasibility =       6115754.204210
+Iteration: 78335   Dual infeasibility =       2196086.153847
+Iteration: 78341   Dual objective     = 11995940646718064000000.000000
+Removing perturbation.
+Initializing dual steep norms . . .
+Iteration: 78467   Scaled dual infeas =      75073574.447479
+Iteration: 78764   Scaled dual infeas =        392961.043261
+Perturbation started.
+Iteration: 78770   Scaled dual infeas =       9949220.159967
+Iteration: 78881   Scaled dual infeas =       9876873.000001
+Iteration: 78896   Dual objective     = 11995940646718227000000.000000
+Iteration: 79182   Dual objective     = 11995940646718232000000.000000
+Iteration: 79396   Dual objective     = 11995940646718240000000.000000
+Iteration: 79398   Scaled dual infeas =     348275846.087819
+Iteration: 79539   Scaled dual infeas =      20143050.212116
+Iteration: 79595   Scaled dual infeas =      17241627.999997
+Iteration: 79603   Dual objective     = 11995940646718173000000.000000
+Iteration: 79830   Dual objective     = 11995940646718202000000.000000
+Iteration: 79831   Scaled dual infeas =      54928767.401597
+Iteration: 79875   Scaled dual infeas =      15359984.675882
+Iteration: 79879   Dual objective     = 11995940646718175000000.000000
+Iteration: 80127   Dual objective     = 11995940646718181000000.000000
+Iteration: 80133   Scaled dual infeas =      71084661.584765
+Iteration: 80176   Scaled dual infeas =      34701655.333336
+Iteration: 80182   Dual objective     = 11995940646718160000000.000000
+Elapsed time = 26.77 sec. (10000.02 ticks, 80182 iterations)
+Iteration: 80417   Dual objective     = 11995940646718232000000.000000
+Iteration: 80424   Scaled dual infeas =     270436839.114286
+Iteration: 80463   Scaled dual infeas =        458921.999999
+Iteration: 80471   Scaled dual infeas =         65535.999999
+Iteration: 80473   Dual objective     = 11995940646718081000000.000000
+Iteration: 80716   Dual objective     = 11995940646718217000000.000000
+Iteration: 80717   Scaled dual infeas =      64868584.928055
+Iteration: 80756   Scaled dual infeas =        131071.999999
+Iteration: 80760   Dual objective     = 11995940646718204000000.000000
+Iteration: 80997   Dual objective     = 11995940646718242000000.000000
+Iteration: 81171   Dual objective     = 11995940646718242000000.000000
+Iteration: 81175   Dual objective     = 11995940646718244000000.000000
+Iteration: 81176   Scaled dual infeas =     666290248.703296
+Iteration: 81248   Scaled dual infeas =      19312503.474643
+Iteration: 81288   Dual objective     = 11995940646716371000000.000000
+Iteration: 81527   Dual objective     = 11995940646718122000000.000000
+Iteration: 81528   Scaled dual infeas =    1512112622.227304
+Iteration: 81592   Scaled dual infeas =     150226507.266656
+Iteration: 81662   Scaled dual infeas =     187760739.999994
+Iteration: 81689   Dual objective     = 11995940646717676000000.000000
+Iteration: 81908   Dual objective     = 11995940646718001000000.000000
+Iteration: 81910   Scaled dual infeas =    2375045678.902389
+Iteration: 81964   Scaled dual infeas =     144048155.999992
+Iteration: 81981   Dual objective     = 11995940646718070000000.000000
+Iteration: 82210   Dual objective     = 11995940646718194000000.000000
+Iteration: 82219   Scaled dual infeas =     294130788.413142
+Iteration: 82270   Scaled dual infeas =      26852566.253952
+Iteration: 82279   Dual objective     = 11995940646718156000000.000000
+Iteration: 82503   Dual objective     = 11995940646718200000000.000000
+Iteration: 82510   Scaled dual infeas =     336649208.498887
+Iteration: 82570   Dual objective     = 11995940646718133000000.000000
+Iteration: 82817   Dual objective     = 11995940646718179000000.000000
+Iteration: 82822   Scaled dual infeas =     616073529.286148
+Iteration: 82889   Dual objective     = 11995940646717873000000.000000
+Iteration: 83105   Dual objective     = 11995940646718171000000.000000
+Iteration: 83110   Scaled dual infeas =     840027218.251223
+Iteration: 83187   Dual objective     = 11995940646717913000000.000000
+Iteration: 83415   Dual objective     = 11995940646718232000000.000000
+Iteration: 83432   Scaled dual infeas =     126103269.505378
+Iteration: 83558   Scaled dual infeas =      79836310.533322
+Iteration: 83580   Scaled dual infeas =     376749733.104392
+Iteration: 83627   Dual objective     = 11995940646718185000000.000000
+Iteration: 83851   Dual objective     = 11995940646718225000000.000000
+Iteration: 83990   Scaled dual infeas =     360205031.074869
+Iteration: 84041   Scaled dual infeas =     203307401.301172
+Iteration: 84060   Scaled dual infeas =     639367284.389415
+Iteration: 84214   Scaled dual infeas =     375497560.667774
+Iteration: 84296   Dual objective     = 11995940646718146000000.000000
+Iteration: 84504   Dual objective     = 11995940646718167000000.000000
+Iteration: 84505   Scaled dual infeas =     778293626.739605
+Iteration: 84597   Dual objective     = 11995940646718112000000.000000
+Iteration: 84730   Dual objective     = 11995940646718347000000.000000
+Iteration: 84732   Dual objective     = 11995940646718347000000.000000
+Iteration: 84734   Dual objective     = 11995940646718347000000.000000
+Iteration: 84736   Dual objective     = 11995940646718347000000.000000
+Iteration: 84740   Dual objective     = 11995940646718347000000.000000
+Iteration: 84744   Dual objective     = 11995940646718347000000.000000
+Iteration: 84745   Dual objective     = 11995940646718347000000.000000
+Iteration: 84746   Dual objective     = 11995940646718347000000.000000
+Iteration: 84748   Dual objective     = 11995940646718347000000.000000
+Iteration: 84749   Dual objective     = 11995940646718347000000.000000
+Iteration: 84751   Dual objective     = 11995940646718347000000.000000
+Iteration: 84761   Scaled dual infeas =     326340339.371960
+Iteration: 84889   Scaled dual infeas =     346230481.523820
+Iteration: 84908   Dual objective     = 11995940646718087000000.000000
+Iteration: 85115   Dual objective     = 11995940646718106000000.000000
+Iteration: 85118   Scaled dual infeas =     652448133.600279
+Iteration: 85158   Dual objective     = 11995940646717940000000.000000
+Iteration: 85338   Dual objective     = 11995940646718177000000.000000
+Iteration: 85339   Scaled dual infeas =     829040217.365818
+Iteration: 85380   Dual objective     = 11995940646718024000000.000000
+Iteration: 85609   Dual objective     = 11995940646718202000000.000000
+Iteration: 85614   Dual objective     = 11995940646718185000000.000000
+Iteration: 85839   Dual objective     = 11995940646718175000000.000000
+Iteration: 85955   Dual objective     = 11995940646718188000000.000000
+Iteration: 85983   Dual objective     = 11995940646718269000000.000000
+Iteration: 86005   Scaled dual infeas =     247093213.523115
+Iteration: 86124   Dual objective     = 11995940646718250000000.000000
+Iteration: 86367   Dual objective     = 11995940646718259000000.000000
+Iteration: 86494   Scaled dual infeas =     202741953.395226
+Iteration: 86525   Dual objective     = 11995940646718282000000.000000
+Iteration: 86752   Dual objective     = 11995940646718290000000.000000
+Iteration: 86769   Scaled dual infeas =     260499168.930155
+Iteration: 86843   Dual objective     = 11995940646718307000000.000000
+Iteration: 87071   Dual objective     = 11995940646718393000000.000000
+Iteration: 87072   Scaled dual infeas =     609998339.594698
+Iteration: 87153   Dual objective     = 11995940646717854000000.000000
+Iteration: 87393   Dual objective     = 11995940646718198000000.000000
+Iteration: 87593   Dual objective     = 11995940646718290000000.000000
+Iteration: 87660   Dual objective     = 11995940646718349000000.000000
+Iteration: 87671   Scaled dual infeas =     269296864.470296
+Iteration: 87746   Scaled dual infeas =     386333121.783716
+Iteration: 87813   Scaled dual infeas =     215186007.107762
+Iteration: 87844   Scaled dual infeas =    2213125264.600006
+Iteration: 87897   Scaled dual infeas =     383199558.915543
+Iteration: 87918   Dual objective     = 11995940646718116000000.000000
+Iteration: 88183   Dual objective     = 11995940646718240000000.000000
+Iteration: 88195   Scaled dual infeas =     655738122.385124
+Iteration: 88252   Scaled dual infeas =     264901710.333321
+Iteration: 88273   Dual objective     = 11995940646718294000000.000000
+Iteration: 88520   Dual objective     = 11995940646717860000000.000000
+Iteration: 88637   Dual objective     = 11995940646718238000000.000000
+Iteration: 88701   Dual objective     = 11995940646718259000000.000000
+Iteration: 88736   Dual objective     = 11995940646718215000000.000000
+Iteration: 88741   Dual objective     = 11995940646718280000000.000000
+Iteration: 88773   Dual objective     = 11995940646718303000000.000000
+Iteration: 88803   Dual objective     = 11995940646718257000000.000000
+Iteration: 88830   Dual objective     = 11995940646718208000000.000000
+Iteration: 88846   Dual objective     = 11995940646718278000000.000000
+Iteration: 88864   Scaled dual infeas =     441539740.500622
+Iteration: 89043   Dual objective     = 11995940646718137000000.000000
+Iteration: 89296   Dual objective     = 11995940646718206000000.000000
+Iteration: 89385   Dual objective     = 11995940646718320000000.000000
+Iteration: 89395   Dual objective     = 11995940646718223000000.000000
+Iteration: 89578   Dual objective     = 11995940646718192000000.000000
+Iteration: 89645   Scaled dual infeas =     546447247.403579
+Iteration: 89785   Dual objective     = 11995940646718185000000.000000
+Iteration: 90020   Dual objective     = 11995940646718265000000.000000
+Iteration: 90042   Dual objective     = 11995940646718282000000.000000
+Iteration: 90166   Dual objective     = 11995940646718250000000.000000
+Iteration: 90183   Dual objective     = 11995940646718292000000.000000
+Iteration: 90195   Dual objective     = 11995940646718259000000.000000
+Iteration: 90229   Dual objective     = 11995940646718273000000.000000
+Iteration: 90263   Dual objective     = 11995940646718282000000.000000
+Iteration: 90301   Dual objective     = 11995940646718273000000.000000
+Iteration: 90327   Dual objective     = 11995940646718257000000.000000
+Iteration: 90379   Dual objective     = 11995940646718301000000.000000
+Iteration: 90396   Dual objective     = 11995940646718202000000.000000
+Iteration: 90401   Dual objective     = 11995940646718208000000.000000
+Iteration: 90441   Dual objective     = 11995940646718221000000.000000
+Iteration: 90501   Dual objective     = 11995940646718236000000.000000
+Iteration: 90509   Dual objective     = 11995940646718250000000.000000
+Iteration: 90523   Dual objective     = 11995940646718255000000.000000
+Iteration: 90593   Dual objective     = 11995940646718246000000.000000
+Iteration: 90609   Dual objective     = 11995940646718284000000.000000
+Iteration: 90616   Dual objective     = 11995940646718288000000.000000
+Iteration: 90655   Scaled dual infeas =     742954734.969499
+Iteration: 90887   Scaled dual infeas =         29666.907587
+Iteration: 90950   Dual objective     = 11995940646718118000000.000000
+Iteration: 91189   Dual objective     = 11995940646718162000000.000000
+Iteration: 91330   Dual objective     = 11995940646718336000000.000000
+Iteration: 91439   Dual objective     = 11995940646718322000000.000000
+Iteration: 91521   Dual objective     = 11995940646718282000000.000000
+Iteration: 91564   Dual objective     = 11995940646718255000000.000000
+Iteration: 91612   Dual objective     = 11995940646718194000000.000000
+Iteration: 91670   Dual objective     = 11995940646718322000000.000000
+Iteration: 91712   Dual objective     = 11995940646718232000000.000000
+Iteration: 91750   Dual objective     = 11995940646718326000000.000000
+Iteration: 91794   Dual objective     = 11995940646718320000000.000000
+Iteration: 91825   Dual objective     = 11995940646718353000000.000000
+Iteration: 91845   Dual objective     = 11995940646718204000000.000000
+Iteration: 91862   Dual objective     = 11995940646718200000000.000000
+Iteration: 91879   Dual objective     = 11995940646718202000000.000000
+Iteration: 91915   Scaled dual infeas =     248217417.097551
+Iteration: 92117   Scaled dual infeas =       2930645.354770
+Iteration: 92124   Scaled dual infeas =     309993374.619011
+Iteration: 92332   Scaled dual infeas =      13694993.864777
+Iteration: 92514   Scaled dual infeas =       5084570.259609
+Iteration: 92582   Scaled dual infeas =    2598292164.933513
+Iteration: 92612   Dual objective     = 11995940646717317000000.000000
+Iteration: 92834   Dual objective     = 11995940646700628000000.000000
+Iteration: 92835   Scaled dual infeas =  185192092197.757870
+Iteration: 92961   Dual objective     = 11995940646705074000000.000000
+Iteration: 93178   Dual objective     = 11995940646709379000000.000000
+Iteration: 93355   Dual objective     = 11995940646713127000000.000000
+Iteration: 93545   Dual objective     = 11995940646722537000000.000000
+Iteration: 93663   Dual objective     = 11995940646718188000000.000000
+Iteration: 93701   Dual objective     = 11995940646718253000000.000000
+Iteration: 93702   Scaled dual infeas =     757790615.860720
+Iteration: 93853   Scaled dual infeas =     333816135.310762
+Iteration: 93893   Dual objective     = 11995940646717873000000.000000
+Iteration: 94112   Dual objective     = 11995940646718051000000.000000
+Iteration: 94121   Scaled dual infeas =     529010109.635132
+Iteration: 94163   Scaled dual infeas =   35501036806.542824
+Iteration: 94192   Dual objective     = 11995940646714740000000.000000
+Iteration: 94387   Dual objective     = 11995940646718259000000.000000
+Iteration: 94442   Dual objective     = 11995940646718378000000.000000
+Iteration: 94483   Dual objective     = 11995940646718387000000.000000
+Iteration: 94520   Scaled dual infeas =     268142874.130207
+Iteration: 94657   Dual objective     = 11995940646718104000000.000000
+Iteration: 94881   Dual objective     = 11995940646718238000000.000000
+Iteration: 94945   Dual objective     = 11995940646718248000000.000000
+Iteration: 95064   Dual objective     = 11995940646718338000000.000000
+Iteration: 95108   Dual objective     = 11995940646718393000000.000000
+Iteration: 95130   Dual objective     = 11995940646718303000000.000000
+Iteration: 95203   Dual objective     = 11995940646718206000000.000000
+Iteration: 95224   Dual objective     = 11995940646718311000000.000000
+Iteration: 95337   Dual objective     = 11995940646718334000000.000000
+Iteration: 95342   Scaled dual infeas =    1058264449.672812
+Iteration: 95598   Scaled dual infeas =       3321184.551949
+Iteration: 95827   Scaled dual infeas =     227110600.076671
+Iteration: 95908   Dual objective     = 11995940646718253000000.000000
+Iteration: 96124   Dual objective     = 11995940646718294000000.000000
+Iteration: 96143   Dual objective     = 11995940646718282000000.000000
+Iteration: 96199   Dual objective     = 11995940646718273000000.000000
+Iteration: 96246   Dual objective     = 11995940646718292000000.000000
+Iteration: 96298   Dual objective     = 11995940646718211000000.000000
+Iteration: 96304   Scaled dual infeas =     370443388.978110
+Iteration: 96411   Dual objective     = 11995940646718248000000.000000
+Iteration: 96642   Dual objective     = 11995940646718265000000.000000
+Iteration: 96847   Dual objective     = 11995940646718282000000.000000
+Iteration: 96923   Dual objective     = 11995940646718294000000.000000
+Iteration: 96961   Dual objective     = 11995940646718236000000.000000
+Iteration: 97051   Dual objective     = 11995940646718257000000.000000
+Iteration: 97097   Dual objective     = 11995940646718307000000.000000
+Iteration: 97120   Dual objective     = 11995940646718271000000.000000
+Iteration: 97148   Dual objective     = 11995940646718313000000.000000
+Iteration: 97173   Dual objective     = 11995940646718332000000.000000
+Iteration: 97178   Scaled dual infeas =     532337420.701088
+Iteration: 97468   Scaled dual infeas =         13992.095040
+Iteration: 97521   Dual objective     = 11995940646718257000000.000000
+Iteration: 97749   Dual objective     = 11995940646718093000000.000000
+Iteration: 97785   Scaled dual infeas =     295035626.642591
+Iteration: 97931   Scaled dual infeas =     933712363.536866
+Iteration: 98075   Scaled dual infeas =     691838967.047170
+Iteration: 98106   Dual objective     = 11995940646712204000000.000000
+Iteration: 98320   Dual objective     = 11995940646718116000000.000000
+Iteration: 98552   Dual objective     = 11995940646718179000000.000000
+Iteration: 98646   Dual objective     = 11995940646718401000000.000000
+Iteration: 98737   Dual objective     = 11995940646718301000000.000000
+Iteration: 98807   Dual objective     = 11995940646718311000000.000000
+Iteration: 98817   Scaled dual infeas =     844153028.192320
+Iteration: 98949   Dual objective     = 11995940646718177000000.000000
+Iteration: 99163   Dual objective     = 11995940646718261000000.000000
+Iteration: 99300   Dual objective     = 11995940646718141000000.000000
+Iteration: 99316   Dual objective     = 11995940646718242000000.000000
+Iteration: 99399   Scaled dual infeas =   16208630754.240538
+Iteration: 99576   Scaled dual infeas =          1884.444435
+Iteration: 99809   Dual objective     = 11995940646718093000000.000000
+Iteration: 100075   Dual objective     = 11995940646718162000000.000000
+Iteration: 100085   Scaled dual infeas =     370922655.643994
+Iteration: 100135   Dual objective     = 11995940646718095000000.000000
+Iteration: 100358   Dual objective     = 11995940646718127000000.000000
+Iteration: 100360   Scaled dual infeas =     395258428.507291
+Iteration: 100404   Dual objective     = 11995940646717879000000.000000
+Iteration: 100575   Dual objective     = 11995940646718154000000.000000
+Iteration: 100804   Dual objective     = 11995940646718257000000.000000
+Iteration: 100820   Scaled dual infeas =     345990020.114812
+Iteration: 100854   Dual objective     = 11995940646717930000000.000000
+Iteration: 101069   Dual objective     = 11995940646718185000000.000000
+Iteration: 101170   Dual objective     = 11995940646718328000000.000000
+Iteration: 101181   Dual objective     = 11995940646718290000000.000000
+Iteration: 101192   Dual objective     = 11995940646718253000000.000000
+Iteration: 101277   Dual objective     = 11995940646718219000000.000000
+Iteration: 101325   Dual objective     = 11995940646718294000000.000000
+Iteration: 101326   Dual objective     = 11995940646718309000000.000000
+Iteration: 101337   Dual objective     = 11995940646718309000000.000000
+Iteration: 101346   Dual objective     = 11995940646718297000000.000000
+Iteration: 101515   Dual objective     = 11995940646699582000000.000000
+Iteration: 101536   Dual objective     = 11995940646718265000000.000000
+Iteration: 101620   Dual objective     = 11995940646718236000000.000000
+Iteration: 101657   Dual objective     = 11995940646718240000000.000000
+Iteration: 101694   Dual objective     = 11995940646718301000000.000000
+Iteration: 101723   Dual objective     = 11995940646718292000000.000000
+Iteration: 101763   Dual objective     = 11995940646718305000000.000000
+Iteration: 101796   Scaled dual infeas =    1716655894.283607
+Iteration: 102008   Scaled dual infeas =      21557694.463054
+Iteration: 102133   Scaled dual infeas =       8456342.217869
+Iteration: 102429   Scaled dual infeas =       2761693.500388
+Iteration: 102431   Scaled dual infeas =     205197822.971047
+Iteration: 102630   Scaled dual infeas =      15363297.203167
+Iteration: 102816   Scaled dual infeas =      28013067.304402
+Iteration: 102820   Scaled dual infeas =    2631085762.547275
+Iteration: 103114   Scaled dual infeas =      27583841.895955
+Iteration: 103346   Scaled dual infeas =     135135848.224820
+Iteration: 103551   Scaled dual infeas =     687110184.335575
+Iteration: 103658   Dual objective     = 11995940646718116000000.000000
+Iteration: 103932   Dual objective     = 11995940646718208000000.000000
+Iteration: 103933   Scaled dual infeas =     419569011.640812
+Iteration: 104186   Scaled dual infeas =        200483.668777
+Iteration: 104227   Dual objective     = 11995940646718110000000.000000
+Iteration: 104416   Dual objective     = 11995940646718204000000.000000
+Iteration: 104516   Dual objective     = 11995940646718198000000.000000
+Iteration: 104523   Scaled dual infeas =     694443787.576155
+Iteration: 104624   Dual objective     = 11995940646718171000000.000000
+Iteration: 104661   Dual objective     = 11995940646718188000000.000000
+Iteration: 104695   Scaled dual infeas =     219256377.177621
+Iteration: 104770   Scaled dual infeas =    2066382213.842060
+Iteration: 105050   Scaled dual infeas =        192230.287673
+Iteration: 105262   Scaled dual infeas =     490032454.501783
+Iteration: 105303   Dual objective     = 11995940646717978000000.000000
+Iteration: 105523   Dual objective     = 11995940646718154000000.000000
+Iteration: 105760   Dual objective     = 11995940646718192000000.000000
+Iteration: 105966   Dual objective     = 11995940646718336000000.000000
+Iteration: 106075   Dual objective     = 11995940646718202000000.000000
+Iteration: 106095   Scaled dual infeas =     549402042.942173
+Iteration: 106248   Scaled dual infeas =     238668085.396781
+Iteration: 106279   Dual objective     = 11995940646716975000000.000000
+Iteration: 106522   Dual objective     = 11995940646718320000000.000000
+Iteration: 106527   Scaled dual infeas =     441300587.901574
+Iteration: 106575   Dual objective     = 11995940646718127000000.000000
+Iteration: 106764   Dual objective     = 11995940646718177000000.000000
+Iteration: 106996   Dual objective     = 11995940646718122000000.000000
+Iteration: 107056   Dual objective     = 11995940646718225000000.000000
+Iteration: 107153   Dual objective     = 11995940646718297000000.000000
+Iteration: 107173   Dual objective     = 11995940646718278000000.000000
+Iteration: 107223   Dual objective     = 11995940646718202000000.000000
+Iteration: 107225   Dual objective     = 11995940646718202000000.000000
+Iteration: 107257   Dual objective     = 11995940646718244000000.000000
+Iteration: 107279   Dual objective     = 11995940646718248000000.000000
+Iteration: 107304   Dual objective     = 11995940646718217000000.000000
+Iteration: 107357   Dual objective     = 11995940646718320000000.000000
+Iteration: 107369   Scaled dual infeas =     363311104.576140
+Iteration: 107504   Dual objective     = 11995940646717684000000.000000
+Iteration: 107717   Dual objective     = 11995940646718286000000.000000
+Iteration: 107820   Dual objective     = 11995940646718175000000.000000
+Iteration: 107872   Dual objective     = 11995940646718206000000.000000
+Iteration: 108041   Dual objective     = 11995940646718152000000.000000
+Iteration: 108138   Dual objective     = 11995940646718190000000.000000
+Iteration: 108161   Dual objective     = 11995940646718353000000.000000
+Iteration: 108202   Dual objective     = 11995940646718248000000.000000
+Iteration: 108203   Scaled dual infeas =     358269359.509221
+Iteration: 108358   Dual objective     = 11995940646718246000000.000000
+Iteration: 108615   Dual objective     = 11995940646718282000000.000000
+Iteration: 108663   Dual objective     = 11995940646718284000000.000000
+Iteration: 108683   Dual objective     = 11995940646718261000000.000000
+Iteration: 108698   Dual objective     = 11995940646718284000000.000000
+Iteration: 108710   Dual objective     = 11995940646718259000000.000000
+Iteration: 108766   Dual objective     = 11995940646718286000000.000000
+Iteration: 108777   Dual objective     = 11995940646718286000000.000000
+Iteration: 108783   Dual objective     = 11995940646718278000000.000000
+Iteration: 108831   Dual objective     = 11995940646718263000000.000000
+Iteration: 108876   Dual objective     = 11995940646718263000000.000000
+Iteration: 108937   Dual objective     = 11995940646718297000000.000000
+Iteration: 108964   Dual objective     = 11995940646718374000000.000000
+Iteration: 108983   Dual objective     = 11995940646718253000000.000000
+Iteration: 108999   Dual objective     = 11995940646718232000000.000000
+Iteration: 109033   Dual objective     = 11995940646718286000000.000000
+Iteration: 109054   Dual objective     = 11995940646718263000000.000000
+Iteration: 109080   Dual objective     = 11995940646718255000000.000000
+Iteration: 109128   Dual objective     = 11995940646718204000000.000000
+Iteration: 109169   Dual objective     = 11995940646718278000000.000000
+Iteration: 109172   Dual objective     = 11995940646718217000000.000000
+Iteration: 109201   Dual objective     = 11995940646718213000000.000000
+Iteration: 109237   Dual objective     = 11995940646718265000000.000000
+Iteration: 109257   Dual objective     = 11995940646718255000000.000000
+Iteration: 109297   Dual objective     = 11995940646718271000000.000000
+Iteration: 109321   Dual objective     = 11995940646718171000000.000000
+Iteration: 109335   Dual objective     = 11995940646718259000000.000000
+Iteration: 109346   Dual objective     = 11995940646718261000000.000000
+Iteration: 109354   Dual objective     = 11995940646718309000000.000000
+Iteration: 109366   Dual objective     = 11995940646718297000000.000000
+Iteration: 109381   Dual objective     = 11995940646718259000000.000000
+Iteration: 109391   Dual objective     = 11995940646718284000000.000000
+Iteration: 109404   Dual objective     = 11995940646718297000000.000000
+Iteration: 109413   Dual objective     = 11995940646718313000000.000000
+Iteration: 109425   Dual objective     = 11995940646718322000000.000000
+Iteration: 109429   Dual objective     = 11995940646718368000000.000000
+Iteration: 109437   Dual objective     = 11995940646718366000000.000000
+Iteration: 109448   Dual objective     = 11995940646718311000000.000000
+Iteration: 109457   Dual objective     = 11995940646718250000000.000000
+Iteration: 109474   Dual objective     = 11995940646717707000000.000000
+Iteration: 109484   Dual objective     = 11995940646718259000000.000000
+Iteration: 109501   Dual objective     = 11995940646718269000000.000000
+Iteration: 109511   Dual objective     = 11995940646718273000000.000000
+Iteration: 109518   Dual objective     = 11995940646718271000000.000000
+Iteration: 109530   Dual objective     = 11995940646718280000000.000000
+Iteration: 109532   Dual objective     = 11995940646718290000000.000000
+Iteration: 109538   Dual objective     = 11995940646718286000000.000000
+Iteration: 109539   Dual objective     = 11995940646718297000000.000000
+Iteration: 109553   Dual objective     = 11995940646718307000000.000000
+Iteration: 109559   Dual objective     = 11995940646718253000000.000000
+Iteration: 109569   Dual objective     = 11995940646718299000000.000000
+Iteration: 109570   Dual objective     = 11995940646718299000000.000000
+Iteration: 109571   Dual objective     = 11995940646718299000000.000000
+Iteration: 109579   Dual objective     = 11995940646718282000000.000000
+Iteration: 109602   Dual objective     = 11995940646718297000000.000000
+Iteration: 109620   Dual objective     = 11995940646718299000000.000000
+Iteration: 109638   Dual objective     = 11995940646718305000000.000000
+Iteration: 109647   Dual objective     = 11995940646718359000000.000000
+Iteration: 109654   Dual objective     = 11995940646718351000000.000000
+Iteration: 109658   Dual objective     = 11995940646718324000000.000000
+Iteration: 109661   Dual objective     = 11995940646718301000000.000000
+Iteration: 109668   Dual objective     = 11995940646718299000000.000000
+Iteration: 109675   Dual objective     = 11995940646718240000000.000000
+Iteration: 109691   Dual objective     = 11995940646718330000000.000000
+Iteration: 109699   Dual objective     = 11995940646718294000000.000000
+Iteration: 109709   Dual objective     = 11995940646718297000000.000000
+Iteration: 109721   Dual objective     = 11995940646718313000000.000000
+Iteration: 109731   Dual objective     = 11995940646718359000000.000000
+Iteration: 109734   Dual objective     = 11995940646718338000000.000000
+Iteration: 109744   Dual objective     = 11995940646718318000000.000000
+Iteration: 109747   Dual objective     = 11995940646718324000000.000000
+Iteration: 109750   Dual objective     = 11995940646718341000000.000000
+Iteration: 109754   Dual objective     = 11995940646718288000000.000000
+Iteration: 109762   Dual objective     = 11995940646718334000000.000000
+Iteration: 109776   Dual objective     = 11995940646718559000000.000000
+Iteration: 109788   Dual objective     = 11995940646718334000000.000000
+Iteration: 109793   Dual objective     = 11995940646718380000000.000000
+Iteration: 109809   Dual objective     = 11995940646718299000000.000000
+Iteration: 109815   Dual objective     = 11995940646718273000000.000000
+Iteration: 109817   Dual objective     = 11995940646718257000000.000000
+Iteration: 109821   Dual objective     = 11995940646718263000000.000000
+Iteration: 109823   Dual objective     = 11995940646718263000000.000000
+Iteration: 109829   Dual objective     = 11995940646718248000000.000000
+Iteration: 109830   Dual objective     = 11995940646718318000000.000000
+Iteration: 109834   Dual objective     = 11995940646718301000000.000000
+Iteration: 109837   Dual objective     = 11995940646718244000000.000000
+Iteration: 109839   Dual objective     = 11995940646718278000000.000000
+Iteration: 109840   Dual objective     = 11995940646718259000000.000000
+Iteration: 109846   Dual objective     = 11995940646718332000000.000000
+Removing perturbation.
+Iteration: 109847   Scaled dual infeas =      90717923.657684
+Iteration: 110180   Scaled dual infeas =        624918.428571
+Reperturbation started.
+Iteration: 110251   Scaled dual infeas =      71257622.328390
+Iteration: 110347   Scaled dual infeas =      18011034.999998
+Iteration: 110366   Scaled dual infeas =        128397.061224
+Iteration: 110368   Dual objective     = 11995940646718171000000.000000
+Iteration: 110620   Dual objective     = 11995940646718188000000.000000
+Iteration: 110621   Scaled dual infeas =     247818965.070431
+Iteration: 110852   Scaled dual infeas =      95744315.800003
+Iteration: 110883   Scaled dual infeas =      47992569.226688
+Iteration: 110967   Scaled dual infeas =      41882436.764606
+Iteration: 110992   Scaled dual infeas =      13505106.723490
+Iteration: 111006   Scaled dual infeas =      33227842.000000
+Iteration: 111021   Scaled dual infeas =             0.000000
+Iteration: 111022   Dual objective     = 11995940646718175000000.000000
+Iteration: 111253   Dual objective     = 11995940646718250000000.000000
+Iteration: 111304   Scaled dual infeas =     297033108.798069
+Iteration: 111447   Scaled dual infeas =         29900.886917
+Iteration: 111449   Scaled dual infeas =          1885.458346
+Iteration: 111474   Dual objective     = 11995940646718152000000.000000
+Iteration: 111658   Dual objective     = 11995940646718188000000.000000
+Iteration: 111660   Scaled dual infeas =      72567576.622214
+Iteration: 111828   Scaled dual infeas =       1799070.000000
+Iteration: 111840   Dual objective     = 11995940646718204000000.000000
+Iteration: 112055   Dual objective     = 11995940646718213000000.000000
+Iteration: 112103   Scaled dual infeas =     214425789.292690
+Iteration: 112122   Scaled dual infeas =      54391538.958664
+Iteration: 112162   Scaled dual infeas =      32669195.999999
+Iteration: 112180   Dual objective     = 11995940646718211000000.000000
+Iteration: 112396   Dual objective     = 11995940646718211000000.000000
+Iteration: 112407   Scaled dual infeas =     580899105.607316
+Iteration: 112473   Dual objective     = 11995940646717904000000.000000
+Iteration: 112702   Dual objective     = 11995940646718357000000.000000
+Iteration: 112716   Scaled dual infeas =      87381953.481910
+Iteration: 112813   Dual objective     = 11995940646718232000000.000000
+Iteration: 113038   Dual objective     = 11995940646718263000000.000000
+Iteration: 113048   Scaled dual infeas =     661390737.612622
+Iteration: 113113   Dual objective     = 11995940646717391000000.000000
+Iteration: 113328   Dual objective     = 11995940646718320000000.000000
+Iteration: 113394   Scaled dual infeas =     422280083.098959
+Iteration: 113422   Scaled dual infeas =    1067652280.630090
+Iteration: 113517   Dual objective     = 11995940646718265000000.000000
+Iteration: 113768   Dual objective     = 11995940646718290000000.000000
+Iteration: 113848   Dual objective     = 11995940646718387000000.000000
+Iteration: 113891   Dual objective     = 11995940646718341000000.000000
+Iteration: 113893   Dual objective     = 11995940646718341000000.000000
+Iteration: 113898   Scaled dual infeas =    1306231164.745154
+Iteration: 114035   Scaled dual infeas =     691898031.758707
+Iteration: 114158   Scaled dual infeas =    1686240844.201863
+Iteration: 114205   Dual objective     = 11995940646717674000000.000000
+Iteration: 114465   Dual objective     = 11995940646718215000000.000000
+Iteration: 114482   Dual objective     = 11995940646718169000000.000000
+Iteration: 114513   Dual objective     = 11995940646718227000000.000000
+Iteration: 114533   Dual objective     = 11995940646718219000000.000000
+Iteration: 114658   Dual objective     = 11995940646718204000000.000000
+Iteration: 114673   Dual objective     = 11995940646718204000000.000000
+Iteration: 114689   Scaled dual infeas =     347183596.817792
+Iteration: 114812   Dual objective     = 11995940646718374000000.000000
+Iteration: 114847   Dual objective     = 11995940646718372000000.000000
+Iteration: 114900   Dual objective     = 11995940646718278000000.000000
+Iteration: 114926   Dual objective     = 11995940646718236000000.000000
+Iteration: 115017   Scaled dual infeas =     304923473.007208
+Iteration: 115098   Scaled dual infeas =       1914975.969423
+Iteration: 115122   Dual objective     = 11995940646718307000000.000000
+Iteration: 115269   Dual objective     = 11995940646717827000000.000000
+Iteration: 115278   Scaled dual infeas =     506539282.551734
+Iteration: 115388   Dual objective     = 11995940646718037000000.000000
+Iteration: 115543   Dual objective     = 11995940646718225000000.000000
+Iteration: 115729   Dual objective     = 11995940646718292000000.000000
+Iteration: 115793   Dual objective     = 11995940646718215000000.000000
+Iteration: 115850   Dual objective     = 11995940646718236000000.000000
+Iteration: 115861   Dual objective     = 11995940646718244000000.000000
+Iteration: 115876   Scaled dual infeas =     418721339.785602
+Iteration: 116126   Scaled dual infeas =        430842.880321
+Iteration: 116198   Dual objective     = 11995940646718355000000.000000
+Iteration: 116247   Dual objective     = 11995940646718351000000.000000
+Iteration: 116323   Dual objective     = 11995940646718116000000.000000
+Iteration: 116445   Scaled dual infeas =     436865213.907432
+Iteration: 116636   Dual objective     = 11995940646718137000000.000000
+Iteration: 116870   Dual objective     = 11995940646718164000000.000000
+Iteration: 116873   Scaled dual infeas =     309337895.735845
+Iteration: 116961   Dual objective     = 11995940646717758000000.000000
+Iteration: 117193   Dual objective     = 11995940646718217000000.000000
+Iteration: 117200   Scaled dual infeas =     445690772.061923
+Iteration: 117267   Dual objective     = 11995940646718355000000.000000
+Iteration: 117336   Dual objective     = 11995940646718297000000.000000
+Iteration: 117368   Scaled dual infeas =    4369269028.919022
+Iteration: 117580   Scaled dual infeas =        712653.524662
+Iteration: 117594   Dual objective     = 11995940646717730000000.000000
+Iteration: 117831   Dual objective     = 11995940646718278000000.000000
+Iteration: 117841   Scaled dual infeas =     548413664.691261
+Iteration: 117933   Dual objective     = 11995940646718158000000.000000
+Iteration: 118174   Dual objective     = 11995940646718215000000.000000
+Iteration: 118338   Dual objective     = 11995940646718206000000.000000
+Iteration: 118390   Dual objective     = 11995940646718290000000.000000
+Iteration: 118417   Dual objective     = 11995940646718263000000.000000
+Iteration: 118446   Dual objective     = 11995940646718244000000.000000
+Iteration: 118454   Scaled dual infeas =     347590910.587076
+Iteration: 118646   Dual objective     = 11995940646718127000000.000000
+Iteration: 118877   Dual objective     = 11995940646718242000000.000000
+Iteration: 118989   Dual objective     = 11995940646718263000000.000000
+Iteration: 118999   Scaled dual infeas =     319823306.224884
+Iteration: 119112   Dual objective     = 11995940646718139000000.000000
+Iteration: 119319   Dual objective     = 11995940646718238000000.000000
+Iteration: 119543   Dual objective     = 11995940646718181000000.000000
+Iteration: 119604   Dual objective     = 11995940646717735000000.000000
+Iteration: 119644   Dual objective     = 11995940646718278000000.000000
+Iteration: 119700   Dual objective     = 11995940646718242000000.000000
+Iteration: 119705   Scaled dual infeas =     430329951.218994
+Iteration: 119849   Scaled dual infeas =     459411238.686702
+Iteration: 119897   Dual objective     = 11995940646717900000000.000000
+Iteration: 120107   Dual objective     = 11995940646718091000000.000000
+Iteration: 120300   Dual objective     = 11995940646718284000000.000000
+Iteration: 120415   Dual objective     = 11995940646718330000000.000000
+Iteration: 120436   Dual objective     = 11995940646718267000000.000000
+Iteration: 120468   Scaled dual infeas =     847399135.321670
+Iteration: 120682   Scaled dual infeas =       3280734.926376
+Iteration: 120824   Scaled dual infeas =     225233642.552237
+Iteration: 120955   Scaled dual infeas =    1300317273.589088
+Iteration: 120989   Dual objective     = 11995940646715604000000.000000
+Iteration: 121244   Dual objective     = 11995940646718263000000.000000
+Iteration: 121268   Dual objective     = 11995940646718253000000.000000
+Iteration: 121510   Dual objective     = 11995940646718221000000.000000
+Iteration: 121594   Dual objective     = 11995940646718246000000.000000
+Iteration: 121659   Dual objective     = 11995940646718263000000.000000
+Iteration: 121661   Scaled dual infeas =     265819105.676076
+Iteration: 121867   Dual objective     = 11995940646718055000000.000000
+Iteration: 122107   Dual objective     = 11995940646718016000000.000000
+Iteration: 122287   Dual objective     = 11995940646718347000000.000000
+Iteration: 122456   Dual objective     = 11995940646718322000000.000000
+Iteration: 122474   Dual objective     = 11995940646718265000000.000000
+Iteration: 122502   Dual objective     = 11995940646719152000000.000000
+Iteration: 122564   Dual objective     = 11995940646718305000000.000000
+Iteration: 122577   Scaled dual infeas =     366223009.769571
+Iteration: 122798   Dual objective     = 11995940646718244000000.000000
+Iteration: 123016   Dual objective     = 11995940646718242000000.000000
+Iteration: 123048   Scaled dual infeas =     341141262.190069
+Iteration: 123119   Dual objective     = 11995940646718267000000.000000
+Iteration: 123245   Dual objective     = 11995940646718292000000.000000
+Iteration: 123258   Dual objective     = 11995940646718265000000.000000
+Iteration: 123448   Dual objective     = 11995940646718255000000.000000
+Iteration: 123450   Scaled dual infeas =     324105806.337080
+Iteration: 123545   Dual objective     = 11995940646718213000000.000000
+Iteration: 123787   Dual objective     = 11995940646718255000000.000000
+Iteration: 123963   Dual objective     = 11995940646717934000000.000000
+Iteration: 124158   Dual objective     = 11995940646718219000000.000000
+Iteration: 124185   Dual objective     = 11995940646718223000000.000000
+Iteration: 124247   Dual objective     = 11995940646718213000000.000000
+Iteration: 124347   Dual objective     = 11995940646718229000000.000000
+Iteration: 124393   Dual objective     = 11995940646718183000000.000000
+Iteration: 124401   Dual objective     = 11995940646718173000000.000000
+Iteration: 124438   Dual objective     = 11995940646718240000000.000000
+Iteration: 124443   Dual objective     = 11995940646718198000000.000000
+Iteration: 124461   Dual objective     = 11995940646718208000000.000000
+Iteration: 124582   Dual objective     = 11995940646724081000000.000000
+Iteration: 124614   Dual objective     = 11995940646718238000000.000000
+Iteration: 124617   Scaled dual infeas =     828145817.298916
+Iteration: 124907   Scaled dual infeas =       6853635.796364
+Iteration: 125018   Scaled dual infeas =      14919224.418929
+Iteration: 125067   Dual objective     = 11995940646717223000000.000000
+Iteration: 125322   Dual objective     = 11995940646718150000000.000000
+Iteration: 125524   Dual objective     = 11995940646718202000000.000000
+Iteration: 125525   Scaled dual infeas =     710865002.775394
+Iteration: 125723   Scaled dual infeas =     763439486.954810
+Iteration: 125799   Dual objective     = 11995940646718137000000.000000
+Iteration: 126025   Dual objective     = 11995940646718198000000.000000
+Iteration: 126057   Scaled dual infeas =     744709519.519845
+Iteration: 126154   Dual objective     = 11995940646718194000000.000000
+Iteration: 126235   Dual objective     = 11995940646718269000000.000000
+Iteration: 126350   Dual objective     = 11995940646718190000000.000000
+Iteration: 126369   Dual objective     = 11995940646718292000000.000000
+Iteration: 126449   Dual objective     = 11995940646718248000000.000000
+Iteration: 126490   Dual objective     = 11995940646718320000000.000000
+Iteration: 126517   Dual objective     = 11995940646718303000000.000000
+Iteration: 126538   Dual objective     = 11995940646718282000000.000000
+Iteration: 126584   Dual objective     = 11995940646718282000000.000000
+Iteration: 126648   Scaled dual infeas =    1357538390.053637
+Iteration: 126787   Scaled dual infeas =    6315620097.211114
+Iteration: 126960   Scaled dual infeas =    4117477924.445047
+Iteration: 126987   Scaled dual infeas =   12040484896.159372
+Iteration: 127000   Dual objective     = 11995940646713819000000.000000
+Iteration: 127234   Dual objective     = 11995940646718200000000.000000
+Iteration: 127309   Scaled dual infeas =     585962281.012901
+Iteration: 127343   Dual objective     = 11995940646717961000000.000000
+Iteration: 127539   Dual objective     = 11995940646718208000000.000000
+Iteration: 127742   Dual objective     = 11995940646718324000000.000000
+Iteration: 127758   Dual objective     = 11995940646718259000000.000000
+Iteration: 127823   Dual objective     = 11995940646718292000000.000000
+Iteration: 127840   Dual objective     = 11995940646718408000000.000000
+Iteration: 127904   Dual objective     = 11995940646718404000000.000000
+Iteration: 127920   Dual objective     = 11995940646718269000000.000000
+Iteration: 128000   Dual objective     = 11995940646718294000000.000000
+Iteration: 128139   Dual objective     = 11995940646718253000000.000000
+Iteration: 128159   Dual objective     = 11995940646718366000000.000000
+Iteration: 128189   Dual objective     = 11995940646718368000000.000000
+Iteration: 128196   Dual objective     = 11995940646718368000000.000000
+Iteration: 128225   Dual objective     = 11995940646718397000000.000000
+Iteration: 128259   Dual objective     = 11995940646718399000000.000000
+Iteration: 128316   Dual objective     = 11995940646718993000000.000000
+Iteration: 128358   Dual objective     = 11995940646718313000000.000000
+Iteration: 128372   Dual objective     = 11995940646718318000000.000000
+Iteration: 128385   Dual objective     = 11995940646718318000000.000000
+Iteration: 128402   Dual objective     = 11995940646718292000000.000000
+Iteration: 128415   Dual objective     = 11995940646718320000000.000000
+Iteration: 128431   Dual objective     = 11995940646718284000000.000000
+Iteration: 128458   Dual objective     = 11995940646718248000000.000000
+Iteration: 128477   Dual objective     = 11995940646718276000000.000000
+Iteration: 128491   Dual objective     = 11995940646718324000000.000000
+Iteration: 128509   Dual objective     = 11995940646718288000000.000000
+Iteration: 128537   Dual objective     = 11995940646718257000000.000000
+Iteration: 128565   Dual objective     = 11995940646718288000000.000000
+Iteration: 128583   Dual objective     = 11995940646718359000000.000000
+Iteration: 128609   Dual objective     = 11995940646718326000000.000000
+Iteration: 128637   Dual objective     = 11995940646718328000000.000000
+Iteration: 128658   Dual objective     = 11995940646718347000000.000000
+Iteration: 128691   Dual objective     = 11995940646718397000000.000000
+Iteration: 128713   Dual objective     = 11995940646718318000000.000000
+Iteration: 128736   Dual objective     = 11995940646718332000000.000000
+Iteration: 128745   Dual objective     = 11995940646718387000000.000000
+Iteration: 128753   Dual objective     = 11995940646718393000000.000000
+Iteration: 128792   Scaled dual infeas =     296282690.819854
+Iteration: 129042   Scaled dual infeas =        209933.941245
+Iteration: 129257   Scaled dual infeas =       8523789.688327
+Iteration: 129259   Dual objective     = 11995940646717898000000.000000
+Iteration: 129518   Dual objective     = 11995940646718133000000.000000
+Iteration: 129520   Dual objective     = 11995940646718160000000.000000
+Iteration: 129756   Dual objective     = 11995940646718099000000.000000
+Iteration: 129907   Dual objective     = 11995940646718431000000.000000
+Iteration: 129974   Dual objective     = 11995940646718257000000.000000
+Iteration: 129998   Dual objective     = 11995940646718162000000.000000
+Iteration: 130041   Dual objective     = 11995940646718181000000.000000
+Iteration: 130091   Dual objective     = 11995940646718217000000.000000
+Iteration: 130111   Dual objective     = 11995940646718257000000.000000
+Iteration: 130149   Dual objective     = 11995940646718223000000.000000
+Iteration: 130203   Dual objective     = 11995940646718064000000.000000
+Iteration: 130243   Dual objective     = 11995940646718250000000.000000
+Iteration: 130244   Dual objective     = 11995940646718259000000.000000
+Iteration: 130277   Dual objective     = 11995940646718208000000.000000
+Iteration: 130286   Scaled dual infeas =     407819553.659663
+Iteration: 130555   Scaled dual infeas =          3736.606278
+Iteration: 130697   Dual objective     = 11995940646718257000000.000000
+Iteration: 130952   Dual objective     = 11995940646718271000000.000000
+Iteration: 131030   Dual objective     = 11995940646718401000000.000000
+Iteration: 131161   Dual objective     = 11995940646718301000000.000000
+Iteration: 131171   Scaled dual infeas =     428578142.175007
+Iteration: 131363   Dual objective     = 11995940646718263000000.000000
+Iteration: 131564   Dual objective     = 11995940646718351000000.000000
+Iteration: 131626   Scaled dual infeas =     583906593.107552
+Iteration: 131807   Scaled dual infeas =          1509.030087
+Iteration: 131947   Dual objective     = 11995940646718288000000.000000
+Iteration: 132079   Dual objective     = 11995940646718307000000.000000
+Iteration: 132193   Dual objective     = 11995940646718328000000.000000
+Iteration: 132231   Dual objective     = 11995940646718292000000.000000
+Iteration: 132265   Dual objective     = 11995940646718303000000.000000
+Iteration: 132452   Dual objective     = 11995940646718276000000.000000
+Iteration: 132477   Scaled dual infeas =    1236915571.390502
+Iteration: 132578   Scaled dual infeas =    1313261090.652445
+Iteration: 132610   Scaled dual infeas =     138250117.565443
+Iteration: 132628   Dual objective     = 11995940646717737000000.000000
+Iteration: 132887   Dual objective     = 11995940646718091000000.000000
+Iteration: 132889   Scaled dual infeas =     446984116.870251
+Iteration: 132938   Dual objective     = 11995940646718072000000.000000
+Iteration: 133185   Dual objective     = 11995940646718120000000.000000
+Iteration: 133198   Scaled dual infeas =     311641650.194054
+Iteration: 133226   Dual objective     = 11995940646718242000000.000000
+Iteration: 133333   Dual objective     = 11995940646718257000000.000000
+Iteration: 133539   Dual objective     = 11995940646718236000000.000000
+Iteration: 133549   Dual objective     = 11995940646718299000000.000000
+Iteration: 133568   Dual objective     = 11995940646718208000000.000000
+Iteration: 133586   Scaled dual infeas =     255747526.583056
+Iteration: 133680   Scaled dual infeas =     491097567.870691
+Iteration: 133724   Dual objective     = 11995940646718221000000.000000
+Iteration: 133980   Dual objective     = 11995940646718213000000.000000
+Iteration: 134084   Dual objective     = 11995940646718253000000.000000
+Iteration: 134097   Dual objective     = 11995940646718234000000.000000
+Iteration: 134108   Dual objective     = 11995940646718255000000.000000
+Iteration: 134193   Dual objective     = 11995940646718248000000.000000
+Iteration: 134200   Scaled dual infeas =     342482782.551382
+Iteration: 134381   Dual objective     = 11995940646718114000000.000000
+Iteration: 134650   Dual objective     = 11995940646718181000000.000000
+Iteration: 134830   Dual objective     = 11995940646718309000000.000000
+Iteration: 134848   Dual objective     = 11995940646718206000000.000000
+Iteration: 134911   Dual objective     = 11995940646718255000000.000000
+Iteration: 134945   Dual objective     = 11995940646718227000000.000000
+Iteration: 134987   Dual objective     = 11995940646718179000000.000000
+Iteration: 135053   Dual objective     = 11995940646718219000000.000000
+Iteration: 135070   Dual objective     = 11995940646718227000000.000000
+Iteration: 135124   Dual objective     = 11995940646718236000000.000000
+Iteration: 135168   Dual objective     = 11995940646718271000000.000000
+Iteration: 135180   Dual objective     = 11995940646718267000000.000000
+Iteration: 135183   Dual objective     = 11995940646718244000000.000000
+Iteration: 135227   Dual objective     = 11995940646718278000000.000000
+Iteration: 135251   Dual objective     = 11995940646718236000000.000000
+Iteration: 135282   Dual objective     = 11995940646718261000000.000000
+Iteration: 135313   Dual objective     = 11995940646718284000000.000000
+Iteration: 135324   Dual objective     = 11995940646718255000000.000000
+Iteration: 135326   Dual objective     = 11995940646718217000000.000000
+Iteration: 135328   Dual objective     = 11995940646718217000000.000000
+Iteration: 135340   Scaled dual infeas =     624165926.314327
+Iteration: 135578   Scaled dual infeas =       9972459.614211
+Iteration: 135793   Scaled dual infeas =     803641317.646165
+Iteration: 135905   Dual objective     = 11995940646718334000000.000000
+Iteration: 136026   Dual objective     = 11995940646718357000000.000000
+Iteration: 136031   Dual objective     = 11995940646718357000000.000000
+Iteration: 136036   Dual objective     = 11995940646718349000000.000000
+Iteration: 136058   Dual objective     = 11995940646718341000000.000000
+Iteration: 136148   Scaled dual infeas =    1695290687.492436
+Iteration: 136414   Scaled dual infeas =       9440056.939789
+Iteration: 136508   Scaled dual infeas =    3464108458.490682
+Iteration: 136571   Dual objective     = 11995940646717537000000.000000
+Iteration: 136817   Dual objective     = 11995940646717751000000.000000
+Iteration: 137026   Dual objective     = 11995940646718401000000.000000
+Iteration: 137095   Scaled dual infeas =     438836756.182495
+Iteration: 137132   Scaled dual infeas =    1804320151.947868
+Iteration: 137181   Dual objective     = 11995940646717934000000.000000
+Iteration: 137393   Dual objective     = 11995940646718225000000.000000
+Iteration: 137394   Scaled dual infeas =     892424916.965267
+Iteration: 137666   Scaled dual infeas =        812743.049024
+Iteration: 137837   Scaled dual infeas =     325882587.338515
+Iteration: 137873   Dual objective     = 11995940646718030000000.000000
+Iteration: 138110   Dual objective     = 11995940646718148000000.000000
+Iteration: 138160   Scaled dual infeas =     922337689.209035
+Iteration: 138240   Dual objective     = 11995940646718217000000.000000
+Iteration: 138357   Dual objective     = 11995940646718217000000.000000
+Iteration: 138556   Dual objective     = 11995940646718253000000.000000
+Iteration: 138577   Scaled dual infeas =     637022308.523101
+Iteration: 138821   Scaled dual infeas =          6059.278461
+Iteration: 138984   Dual objective     = 11995940646718242000000.000000
+Iteration: 139140   Dual objective     = 11995940646718236000000.000000
+Iteration: 139367   Dual objective     = 11995940646718280000000.000000
+Iteration: 139518   Dual objective     = 11995940646718244000000.000000
+Iteration: 139575   Dual objective     = 11995940646718257000000.000000
+Iteration: 139660   Dual objective     = 11995940646718301000000.000000
+Iteration: 139819   Dual objective     = 11995940646718299000000.000000
+Iteration: 139967   Dual objective     = 11995940646718265000000.000000
+Iteration: 140008   Dual objective     = 11995940646718246000000.000000
+Iteration: 140059   Dual objective     = 11995940646718292000000.000000
+Iteration: 140089   Dual objective     = 11995940646718292000000.000000
+Iteration: 140104   Dual objective     = 11995940646718303000000.000000
+Iteration: 140134   Dual objective     = 11995940646718305000000.000000
+Iteration: 140138   Dual objective     = 11995940646718242000000.000000
+Iteration: 140140   Dual objective     = 11995940646718242000000.000000
+Iteration: 140175   Dual objective     = 11995940646718238000000.000000
+Iteration: 140209   Dual objective     = 11995940646718127000000.000000
+Iteration: 140241   Dual objective     = 11995940646718318000000.000000
+Iteration: 140256   Dual objective     = 11995940646718349000000.000000
+Iteration: 140291   Dual objective     = 11995940646718330000000.000000
+Iteration: 140302   Dual objective     = 11995940646718401000000.000000
+Iteration: 140303   Dual objective     = 11995940646718389000000.000000
+Iteration: 140333   Dual objective     = 11995940646718366000000.000000
+Iteration: 140347   Dual objective     = 11995940646718271000000.000000
+Iteration: 140380   Dual objective     = 11995940646718336000000.000000
+Iteration: 140387   Dual objective     = 11995940646719194000000.000000
+Iteration: 140424   Dual objective     = 11995940646718122000000.000000
+Iteration: 140461   Dual objective     = 11995940646718269000000.000000
+Iteration: 140476   Dual objective     = 11995940646718221000000.000000
+Iteration: 140533   Dual objective     = 11995940646718097000000.000000
+Iteration: 140541   Dual objective     = 11995940646718213000000.000000
+Iteration: 140575   Dual objective     = 11995940646718148000000.000000
+Iteration: 140582   Dual objective     = 11995940646718169000000.000000
+Iteration: 140603   Dual objective     = 11995940646718330000000.000000
+Iteration: 140616   Dual objective     = 11995940646718192000000.000000
+Iteration: 140641   Dual objective     = 11995940646718397000000.000000
+Iteration: 140670   Dual objective     = 11995940646718175000000.000000
+Iteration: 140697   Dual objective     = 11995940646718362000000.000000
+Iteration: 140717   Dual objective     = 11995940646718278000000.000000
+Iteration: 140751   Dual objective     = 11995940646718288000000.000000
+Iteration: 140772   Dual objective     = 11995940646718200000000.000000
+Iteration: 140791   Dual objective     = 11995940646718225000000.000000
+Iteration: 140823   Dual objective     = 11995940646718238000000.000000
+Iteration: 140824   Dual objective     = 11995940646718238000000.000000
+Iteration: 140844   Dual objective     = 11995940646718221000000.000000
+Iteration: 140851   Dual objective     = 11995940646718194000000.000000
+Iteration: 140862   Dual objective     = 11995940646718202000000.000000
+Iteration: 140886   Dual objective     = 11995940646718294000000.000000
+Iteration: 140901   Dual objective     = 11995940646718309000000.000000
+Iteration: 140919   Dual objective     = 11995940646718253000000.000000
+Iteration: 140937   Dual objective     = 11995940646718253000000.000000
+Iteration: 140962   Scaled dual infeas =    1132299301.889965
+Iteration: 141170   Scaled dual infeas =     143910711.121398
+Iteration: 141242   Scaled dual infeas =      61215743.082793
+Iteration: 141485   Scaled dual infeas =       8333573.287463
+Iteration: 141560   Dual objective     = 11995940646718271000000.000000
+Iteration: 141703   Dual objective     = 11995940646718364000000.000000
+Iteration: 141770   Dual objective     = 11995940646718167000000.000000
+Iteration: 141775   Scaled dual infeas =     311888535.584440
+Iteration: 141995   Scaled dual infeas =        115719.702835
+Iteration: 142206   Dual objective     = 11995940646717804000000.000000
+Iteration: 142298   Scaled dual infeas =     238886249.264293
+Iteration: 142336   Dual objective     = 11995940646718173000000.000000
+Iteration: 142522   Dual objective     = 11995940646718177000000.000000
+Iteration: 142548   Dual objective     = 11995940646718240000000.000000
+Iteration: 142609   Dual objective     = 11995940646718219000000.000000
+Iteration: 142645   Dual objective     = 11995940646718236000000.000000
+Iteration: 142681   Dual objective     = 11995940646718234000000.000000
+Iteration: 142693   Dual objective     = 11995940646718217000000.000000
+Iteration: 142697   Dual objective     = 11995940646718263000000.000000
+Iteration: 142730   Dual objective     = 11995940646718265000000.000000
+Iteration: 142741   Dual objective     = 11995940646718267000000.000000
+Iteration: 142758   Dual objective     = 11995940646718290000000.000000
+Iteration: 142779   Dual objective     = 11995940646718246000000.000000
+Iteration: 142797   Dual objective     = 11995940646718171000000.000000
+Iteration: 142821   Dual objective     = 11995940646718223000000.000000
+Iteration: 142835   Dual objective     = 11995940646718253000000.000000
+Iteration: 142843   Dual objective     = 11995940646718190000000.000000
+Iteration: 142849   Dual objective     = 11995940646718236000000.000000
+Iteration: 142872   Dual objective     = 11995940646718303000000.000000
+Iteration: 142883   Dual objective     = 11995940646718221000000.000000
+Iteration: 142888   Dual objective     = 11995940646718269000000.000000
+Iteration: 142889   Dual objective     = 11995940646718171000000.000000
+Iteration: 142903   Dual objective     = 11995940646718269000000.000000
+Iteration: 142928   Dual objective     = 11995940646718156000000.000000
+Iteration: 142932   Dual objective     = 11995940646718160000000.000000
+Iteration: 142935   Dual objective     = 11995940646718198000000.000000
+Iteration: 142957   Dual objective     = 11995940646718290000000.000000
+Iteration: 142967   Dual objective     = 11995940646718307000000.000000
+Iteration: 142974   Dual objective     = 11995940646718265000000.000000
+Iteration: 142995   Dual objective     = 11995940646718185000000.000000
+Iteration: 142996   Dual objective     = 11995940646718202000000.000000
+Iteration: 143017   Dual objective     = 11995940646718372000000.000000
+Iteration: 143050   Dual objective     = 11995940646718217000000.000000
+Iteration: 143064   Scaled dual infeas =     565383888.062649
+Iteration: 143311   Scaled dual infeas =        661030.607064
+Iteration: 143347   Dual objective     = 11995940646718282000000.000000
+Iteration: 143409   Dual objective     = 11995940646718213000000.000000
+Iteration: 143423   Scaled dual infeas =     247336805.419441
+Iteration: 143484   Dual objective     = 11995940646718196000000.000000
+Removing perturbation.
+Root relaxation solution time = 53.09 sec. (19933.19 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      4.12472e+023     7915.0000   143538  100.00%
+Found incumbent of value 4.1247207e+023 after 53.60 sec. (20091.15 ticks)
+      0     0  1.19959e+022    70  4.12472e+023  1.19959e+022   143538   97.09%
+      0     0  1.19965e+022   121  4.12472e+023     Cuts: 274   295802   97.09%
+      0     0  1.19968e+022   124  4.12472e+023     Cuts: 199   483036   97.09%
+      0     0  1.19968e+022   137  4.12472e+023     Cuts: 204   725519   97.09%
+      0     0  1.19968e+022    99  4.12472e+023     Cuts: 447   963803   97.09%
+      0     0  1.19968e+022   111  4.12472e+023     Cuts: 308  1262902   97.09%
+Heuristic still looking.
